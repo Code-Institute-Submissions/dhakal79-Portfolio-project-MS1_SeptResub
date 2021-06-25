@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}    
+body{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #3a3a3a;
+  background: #fff;
+}
+    h1,h2{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #252525;
+    }
+    #logo{
+        float: left;
+        font-size: 150%;
+        margin-left: 30px;
+    }
+    /*navigation links */
+#menu{
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;    
+}
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+/*hero image*/
+
+#animation{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#water-image {
+    height: 500px;
+    width: 100%;
+    background: url("../../assets/images/water-image.jpg") no-repeat center center;
+    
+
+/* image animation zoom properties */
+animation-name: image-zoom;
+animation-duration: 10s;
+animation-fill-mode: forward;
+}
+/* animation of water image zoom */
+@keyframes image-zoom{
+    form{
+        transform: scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
+}
+
+/*module introduction section */
+#module-introduction{
+    height: 600px;
+}
+#left-aim{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+   
+    }
+
+#contact{
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+            
+    }
+#video-intro{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    
+}
+
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 10px, 0;
+}
+.left-aim-heading{
+    width: 80%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    
+}
+#title-block{
+    width: 1000px;
+    height: 50px;
+    background: steelblue;
+    margin: 0 auto;
+}
+#title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+    color: white;
+    padding-top: 10px;
+}
+.class-block{
+    width: 100%;
+    height: 150px;
+    background:rgb(78, 133, 150);
+    margin-top: 100px;
+    color: white;
+}
