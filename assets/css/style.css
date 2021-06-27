@@ -138,7 +138,7 @@ hr{
 
 /* section 3 topics */
 #topics{
-height: 600px;
+height: 300px;
 }
 
 #coagulation{
@@ -184,6 +184,20 @@ height: 600px;
     color:teal;
 
 }
+/* footer */
+footer{
+    height: 100px;
+}
+.social-media{
+    text-align: center;
+}
 
-
-
+.social-media >li{
+    display: inline;
+}
+.social-media i{
+    font-size: 170%;
+    margin: 25px;
+    padding: 25px;
+    color: #3a3a3a;
+}
