@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +6,13 @@
 }    
 body{
     font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-family: lato, sans-serif;
+        font-weight: bold;
     color: #3a3a3a;
   background: #fff;
 }
     h1,h2{
+       font-family: oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 4px;
         color: #252525;
@@ -118,13 +119,14 @@ hr{
     height: 50px;
     background: steelblue;
     margin: 0 auto;
+    
 }
 #title{
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
     color: white;
-    padding-top: 10px;
+    
 }
 .class-block{
     width: 100%;
@@ -133,3 +135,50 @@ hr{
     margin-top: 100px;
     color: white;
 }
+
+/* section 3 topics */
+#topics{
+height: 600px;
+}
+
+#coagulation{
+    padding-top: 30px;
+    width: 25%;
+    float: left;
+   
+    }
+
+#DAF{
+    padding-top: 30px;
+    width: 25%;
+    float: right;
+   
+    }
+#filtration{
+        padding-top: 30px;
+        width: 25%;
+        float: right;
+       
+        }
+#sedimentation{
+            padding-top: 30px;
+            width: 25%;
+            float: left;
+           
+            }
+
+#circle{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+
+}
+
+#text-topic{
+    text-align: center;
+}
+
