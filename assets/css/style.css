@@ -182,6 +182,98 @@ height: 300px;
     text-align: center;
     padding-top: 70px;
     color:teal;
+}
+    /* Contact_us page */
+
+#feedback{
+    clear: both;
+   
+}
+      
+  .contact_form {
+    color: #fff;
+    background-color: #34495e;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+   margin: 0 auto;
+    margin-top: 1.5%;
+    
+  }
+  
+  .contact_form h2 {
+    color: #fafafa;
+    margin-bottom: 50px;
+  }
+  
+  .text_input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+  }
+  
+  .text_input:hover {
+    border-color: #e74c3c;
+  }
+  /*
+  #feedback {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    height: 5rem;
+  }
+  
+  .submit_button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .submit_button:hover {
+    background-color: #fff;
+    color: #e74c3c;
+  }
+  
+  .form_layout {
+    text-align: center;
+  }
+  
+  .form_inline {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  .form_inline img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+*/
+
+
+
+
+
+
+
+
+
 
 }
 /* footer */
@@ -201,3 +293,4 @@ footer{
     padding: 25px;
     color: #3a3a3a;
 }
+
