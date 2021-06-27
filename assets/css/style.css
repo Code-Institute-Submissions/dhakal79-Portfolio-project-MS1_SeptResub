@@ -187,6 +187,7 @@ height: 300px;
 
 #feedback{
     clear: both;
+    padding-left: 30px;
    
 }
       
@@ -196,7 +197,7 @@ height: 300px;
     max-width: 400px;
     padding: 30px;
     border-radius: 10px;
-   margin: 0 auto;
+   float: left;
     margin-top: 1.5%;
     
   }
@@ -237,7 +238,7 @@ height: 300px;
     border-radius: 5px;
     width: 100%;
     margin: 0 auto;
-    height: 25rem;
+    height: 10rem;
   }
   
   .submit_button {
@@ -261,7 +262,7 @@ height: 300px;
   }
   
   .form_layout {
-    text-align: center;
+    text-align: left;
   }
   
   .form_inline {
