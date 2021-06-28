@@ -7,42 +7,54 @@
 body{
     font-size: 15px;
     font-family: lato, sans-serif;
-        font-weight: bold;
-    color: #3a3a3a;
-  background: #fff;
+    font-weight: bold;
+    color: #3a3a3a; 
+    
 }
+
     h1,h2{
        font-family: oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #252525;
         
+        
     }
     #logo{
         float: left;
-        font-size: 150%;
+        font-size: 200%;
         margin-left: 30px;
+        color: #000000;
+                
     }
     /*navigation links */
-#menu{
+.menu-bar{
+        height: 73px;
+        width: 100%;
+        background-color: #08A9B4;
+        position: relative;
+        z-index: 9999;
+      }
+
+#nav{
     font-size: 100%;
     letter-spacing: 4px;
 }
-#menu, #logo{
+#nav, #logo{
     line-height: 75px;
 }
 
-#menu li{
+#nav li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a{
+#nav a{
     text-decoration: none;
-    color: inherit;    
+    color: #000000;    
 }
-#menu a:hover{
+#nav a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
 .active{
@@ -118,17 +130,18 @@ hr{
     
 }
 #title-block{
-    width: 1000px;
+    width: 600px;
     height: 50px;
     background: steelblue;
-    margin: 0 auto;
-    
+        
 }
 #title{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 150%;
     color: white;
+    padding-left: 20px;
+   
     
 }
 .class-block{
@@ -140,52 +153,40 @@ hr{
 }
 
 /* section 3 topics */
-#topics{
-height: 300px;
+.wrapper{
+   margin-top: 5%; 
 }
-
-#coagulation{
-    padding-top: 30px;
-    width: 25%;
-    float: left;
-   
-    }
-
-#DAF{
-    padding-top: 30px;
-    width: 25%;
-    float: right;
-   
-    }
-#filtration{
-        padding-top: 30px;
-        width: 25%;
-        float: right;
-       
-        }
-#sedimentation{
-            padding-top: 30px;
-            width: 25%;
-            float: left;
-           
-            }
-
-#circle{
-    width: 200px;
-    height: 200px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    background:moccasin
-
-}
-#text{
+.wrapper h1{
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
     text-align: center;
-    padding-top: 70px;
-    color:teal;
 }
+
+.topic{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.topic .topic-detail{
+    background: #BDFB13;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.topic .topic-detail h3{
+    color:#06157A;
+    font-size: 25px;
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+
+
     /* Contact_us page */
 
 #feedback{
