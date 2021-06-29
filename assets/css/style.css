@@ -16,9 +16,8 @@ body{
        font-family: oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
-        color: #252525;
-        
-        
+        color:#046231;
+              
     }
     #logo{
         float: left;
@@ -102,18 +101,15 @@ transform: scale(1.1);
     
 #left-aim{
     padding-top: 30px;
-    width: 40%;
+    width: 33%;
     float: left;
    
     }
-#video-about{
-    width: 60%;
-    margin: 0 auto;  
-    }
+
 #video-intro{
     padding-top: 20px;
-    width: 80%;
-    margin: 0 auto;      
+    width: 33%;
+    margin-left: 40px;      
 }
 #contact{
         padding-top: 30px;
@@ -123,9 +119,10 @@ transform: scale(1.1);
     }
 
 hr{
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
+    border-top: 2px solid #3a3a3a;
+    width: 40%;
     margin: 10px, 0;
+    
 }
 .left-aim-heading{
     width: 90%;
@@ -137,6 +134,7 @@ hr{
 .left-aim-heading p, li{
     line-height: 25px;
     padding-top: 10px;
+    color: #201D1E;
 }
 #title-block{
     width: 600px;
@@ -156,9 +154,14 @@ hr{
 .class-block{
     width: 100%;
     height: 150px;
-    background:rgb(78, 133, 150);
-    margin-top: 100px;
+    margin-top: 0;
     color: white;
+    margin-left: 60px;
+}
+.coordinator{
+    margin-top: 10px;
+    color: white;
+    margin-left: 60px;
 }
 
 /* section 3 topics */
