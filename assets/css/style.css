@@ -102,13 +102,17 @@ transform: scale(1.1);
     
 #left-aim{
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: left;
    
     }
+#video-about{
+    width: 60%;
+    margin: 0 auto;  
+    }
 #video-intro{
     padding-top: 20px;
-    width: 33%;
+    width: 80%;
     margin: 0 auto;      
 }
 #contact{
@@ -124,7 +128,7 @@ hr{
     margin: 10px, 0;
 }
 .left-aim-heading{
-    width: 80%;
+    width: 90%;
     float: right;
     line-height: 20px;
     clear: both;
