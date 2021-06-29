@@ -158,10 +158,20 @@ hr{
     color: white;
     margin-left: 60px;
 }
+#contact-details{
+    display: flex;
+}
 .coordinator{
     margin-top: 10px;
     color: white;
     margin-left: 60px;
+}
+.coordinator-contact{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.coordinator-contact p{
+    color: #046231;
 }
 
 /* section 3 topics */
