@@ -93,28 +93,30 @@ transform: scale(1.1);
 #module-introduction{
     height: 600px;
 }
+.course-about{
+    display:flex;
+    text-align: left;
+    width: auto;
+    margin: 30px;
+}
+    
 #left-aim{
     padding-top: 30px;
     width: 33%;
     float: left;
    
     }
-
+#video-intro{
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;      
+}
 #contact{
         padding-top: 30px;
         width: 33%;
         float: right;
             
     }
-#video-intro{
-    padding-top: 20px;
-    width: 33%;
-    margin: 0 auto;
-
-    
-    
-}
-
 
 hr{
     border-top: 1px solid #3a3a3a;
@@ -127,7 +129,10 @@ hr{
     line-height: 20px;
     clear: both;
     margin-bottom: 30px;
-    
+}
+.left-aim-heading p, li{
+    line-height: 25px;
+    padding-top: 10px;
 }
 #title-block{
     width: 600px;
