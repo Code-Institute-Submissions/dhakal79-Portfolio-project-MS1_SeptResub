@@ -346,10 +346,15 @@ padding-left: 25px;
     color: #e74c3c;
     cursor: pointer;
   }
-  
+ 
   .form-layout {
     text-align: left;
     max-width: 1000px;
+  }
+  .form-inline{
+      display:inline-block;
+      vertical-align: bottom;
+
   }
  /*
   .form-inline {
