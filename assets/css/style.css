@@ -289,14 +289,8 @@ width: 550px;
   } 
   .contact-details h2{
       font-size: 30px;
+      margin-bottom: 20px;
   }
-
-
-  .contact-details hr{
-      width: 150px;
-      margin-bottom: 30px;
-  }
-
   .contact-details input{
     background: transparent;
     color: #151414;
@@ -390,6 +384,27 @@ padding-left: 25px;
   }
   
 */
+
+/* theory page*/
+.content{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.content .content-details{
+    background: #BDFB13;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+
 
 
 
