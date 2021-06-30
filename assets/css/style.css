@@ -8,7 +8,8 @@ body{
     font-size: 15px;
     font-family: lato, sans-serif;
     font-weight: bold;
-    color: #3a3a3a;   
+    color: #3a3a3a; 
+
 }
 .menu-bar{
     background: #08A9B4;
@@ -268,7 +269,7 @@ hr{
    }
 .contact-form {
     color:#151414;
-    background-color:#D8DCD0;
+    background-color:#fff;
     max-width: 800px;
     padding: 30px;
     border-radius: 10px;
@@ -278,12 +279,22 @@ hr{
   }
   
   .contact-heading h2 {
-    color: #151414;
-    margin-bottom: 50px;
+    color: #000000;
+    margin-bottom: 40px;
+    font-size: 210%;
   }
   
   .contact-details{
 width: 550px;
+  } 
+  .contact-details h2{
+      font-size: 30px;
+  }
+
+
+  .contact-details hr{
+      width: 150px;
+      margin-bottom: 30px;
   }
 
   .contact-details input{
@@ -300,8 +311,14 @@ width: 550px;
     border-color:rgb(153, 8, 32);
     cursor: pointer;
   }
+  .questionnaires h2{
+    font-size: 30px;
+}
+
 .questionnaires h3{
     color: #151414;
+    margin-top: 20px;
+    font-weight: 200px;
    
 }
 .questionnaires hr{
@@ -320,6 +337,10 @@ padding-left: 25px;
 .additional-remarks{
     margin-top: 20px;
 } 
+.additional-remarks h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}     
 
 .additional-remarks textarea{
     border-color: #be0e0e;
@@ -327,6 +348,7 @@ padding-left: 25px;
     width: 100%;
     margin-top: 20px;
     height: 15rem;
+    background-color: #edf3f0;
         
   }
   
