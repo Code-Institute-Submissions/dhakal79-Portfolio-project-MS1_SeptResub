@@ -265,55 +265,53 @@ hr{
 #feedback{
     clear: both;
     padding-left: 30px;
-   
-}
-      
-  .contact-form {
-    color: #fff;
-    background-color: #34495e;
-    max-width: 400px;
+   }
+.contact-form {
+    color:#151414;
+    background-color:#D8DCD0;
+    max-width: 800px;
     padding: 30px;
     border-radius: 10px;
-   float: left;
+    margin: 0 auto;
     margin-top: 1.5%;
     
   }
   
   .contact-heading h2 {
-    color: #f3f0f0;
+    color: #151414;
     margin-bottom: 50px;
   }
   
   .contact-details{
-
+width: 550px;
   }
 
   .contact-details input{
     background: transparent;
-    color: #fafafa;
+    color: #151414;
     width: 100%;
     height: 30px;
     margin: 10px 0 25px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #5c5a5a;
     border-radius: 2px;
   }
   
   .contact-details input:hover {
-    border-color:rgb(226, 43, 73);
+    border-color:rgb(153, 8, 32);
     cursor: pointer;
   }
 .questionnaires h3{
-    color: #f3f0f0;
+    color: #151414;
    
 }
 .questionnaires hr{
-    border-top: 3px solid #eee7e7;
-    width: 85%;
+    border-top: 2px solid #151414;
+    width: 43%;
     margin: 10px, 0;
 }
 
 .feedback-questionnaire{
-padding-left: 10px;
+padding-left: 25px;
 }
 .radio-botton{
     margin: 0 20px 40px 0;
@@ -323,11 +321,13 @@ padding-left: 10px;
     margin-top: 20px;
 } 
 
-.comment{
+.additional-remarks textarea{
+    border-color: #be0e0e;
     border-radius: 5px;
     width: 100%;
     margin-top: 20px;
-    height: 10rem;
+    height: 15rem;
+        
   }
   
   .submit-button {
@@ -351,7 +351,7 @@ padding-left: 10px;
     text-align: left;
     max-width: 1000px;
   }
-  
+ /*
   .form-inline {
     display: inline-block;
     vertical-align: bottom;
