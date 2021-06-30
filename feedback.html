@@ -14,11 +14,7 @@
     <h1>IHE Delft</h1>
 </div>
     <div class="menu-bar">   
-        <!--          
-        <a href="index.html">
-            <h1 id="logo">IHE Delft</h1>
-        </a>
-         --> 
+     
        <ul>
           <li><a href="index.html" class="active">Introduction</a></li>
           <li><a href="theory.html">Theory</a>
@@ -38,74 +34,73 @@
 
     <!-- Code for the form structure -->
 <section id="feedback">
-<div class="form_layout">   
-<form method="POST" action="dhakalnirajan@yaoo.com" class="contact_form"> 
-    <h2>Contact Us</h2>
-<label for ="fname">Full Name</label>
-<input class="text_input" id="fname" name="full_name" placeholder="Type your full name here" type="text" required>
+<div class="form-layout">   
+<form method="POST" action="dhakalnirajan@yaoo.com" class="contact-form"> 
+  <div class="contact-heading">
+      <h2>Contact Us</h2>
+  </div> 
+
+ <div class ="contact-details">
+  <label for ="fname">Full Name</label>
+<input id="fname" name="full-name" placeholder="Type your full name here" type="text" required>
 
 <label for="email">Email Address</label>
-<input class="text_input" type="email" id="email" name="email_address" placeholder="Type your email address here" required>
-<p></p>
-<h3> Please rate overall performance of the module</h3>
+<input type="email" id="email" name="email-address" placeholder="Type your email address here" required>
+
+</div> 
+<div class="questionnaires">
+    <h3> Please rate overall performance of the module</h3>
+    <hr>
+</div>
 <br>
+<div class="feedback-questionnaire">
 <ol>
     <li>The course fulfilled the objectives set out</li>  
-    <br>
-<input type="radio" id="Strongly Agree" name="feedback" value="Strongly Agree">
-    <label for="Strongly Agree">Strongly Agree</label>
-    <br>
-    <input type="radio" id="Agree" name="feedback" value="Agree">
-    <label for="Agree">Agree</label> 
-    <br>  
+    <input type="radio" id="Strongly Agree" name="feedback" value="Strongly Agree">
+    <label class="radio-botton" for="Strongly Agree">Strongly Agree</label>
+   <input type="radio" id="Agree" name="feedback" value="Agree">
+    <label class="radio-botton" for="Agree">Agree</label> 
     <input type="radio" id="Neutral" name="feedback" value="Neutral">
-    <label for="Neutral">Neutral</label> 
-    <br>
+    <label class="radio-botton" for="Neutral">Neutral</label> 
     <input type="radio" id="Disagree" name="feedback" value="Disagree">
-    <label for="Disagree">Disagree</label>   
-    <br>
+    <label class="radio-botton" for="Disagree">Disagree</label>   
     <input type="radio" id="Strongly Disagree" name="feedback" value="Strongly Disagree">
-    <label for="Strongly Disagree">Strongly Disagree</label>      
+    <label class="radio-botton" for="Strongly Disagree">Strongly Disagree</label>      
 <br>
-<p></p>
+
 <li> The material presented had practical relevance</li>
 <br>
 <input type="radio" id="Strongly Agree" name="feedback" value="Strongly Agree">
-<label for="Strongly Agree">Strongly Agree</label>
-    <br>
+<label class="radio-botton" for="Strongly Agree">Strongly Agree</label>
     <input type="radio" id="Agree" name="feedback" value="Agree">
-    <label for="Agree">Agree</label> 
-    <br>  
+    <label class="radio-botton" for="Agree">Agree</label> 
     <input type="radio" id="Neutral" name="feedback" value="Neutral">
-    <label for="Neutral">Neutral</label> 
-    <br>
+    <label class="radio-botton" for="Neutral">Neutral</label> 
     <input type="radio" id="Disagree" name="feedback" value="Disagree">
-    <label for="Disagree">Disagree</label>   
-    <br>
+    <label class="radio-botton" for="Disagree">Disagree</label>   
     <input type="radio" id="Strongly Disagree" name="feedback" value="Strongly Disagree">
-    <label for="Strongly Disagree">Strongly Disagree</label>  
-<p></p>
+    <label class="radio-botton" for="Strongly Disagree">Strongly Disagree</label>  
+<br>
     <li> The material presented had practical relevance</li>
 
     <input type="radio" id="Strongly Agree" name="feedback" value="Strongly Agree">
-<label for="Strongly Agree">Strongly Agree</label>
-    <br>
+<label class="radio-botton" for="Strongly Agree">Strongly Agree</label>
     <input type="radio" id="Agree" name="feedback" value="Agree">
-    <label for="Agree">Agree</label> 
-    <br>  
+    <label class="radio-botton" for="Agree">Agree</label> 
     <input type="radio" id="Neutral" name="feedback" value="Neutral">
-    <label for="Neutral">Neutral</label> 
-    <br>
+    <label class="radio-botton" for="Neutral">Neutral</label> 
     <input type="radio" id="Disagree" name="feedback" value="Disagree">
-    <label for="Disagree">Disagree</label>   
-    <br>
+    <label class="radio-botton" for="Disagree">Disagree</label>   
     <input type="radio" id="Strongly Disagree" name="feedback" value="Strongly Disagree">
-    <label for="Strongly Disagree">Strongly Disagree</label>  
+    <label class="radio-botton" for="Strongly Disagree">Strongly Disagree</label>  
 </ol>
-<label for="comment">Additional comments</label>
-<textarea id="comment" name="comment" placeholder="Type your additional comments here" rows="20" cols= "60" required></textarea>
+</div>
+<div class="additional-remarks">
+<label for="comment">Additional remarks</label>
+<textarea class="comment" name="comment" placeholder="Type your additional comments here" rows="20" cols= "60" required></textarea>
+</div>
 
-<input type="submit" class="submit_button" value="Submit">
+<input type="submit" class="submit-button" value="Submit">
 </form>
 </div>  
 </section>
