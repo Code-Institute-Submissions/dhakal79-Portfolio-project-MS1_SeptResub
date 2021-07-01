@@ -305,6 +305,7 @@ width: 550px;
     border-color:rgb(153, 8, 32);
     cursor: pointer;
   }
+  
   .questionnaires h2{
     font-size: 30px;
 }
@@ -346,7 +347,7 @@ padding-left: 25px;
         
   }
   
-  .submit-button {
+  .button {
     margin-top: 15px;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
@@ -357,7 +358,7 @@ padding-left: 25px;
     display: inline-block;    
   }
   
-  .submit-button:hover {
+  .button:hover {
     background-color: rgb(209, 152, 231);
     color: #e74c3c;
     cursor: pointer;
