@@ -161,7 +161,7 @@ transform: scale(1.1);
 #video-intro{
     padding-top: 20px;
     width: 33%;
-    margin-left: 40px;      
+    margin: 0 auto;      
 }
 #contact{
         padding-top: 30px;
@@ -405,18 +405,6 @@ padding-left: 25px;
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 footer{
     height: 100px;
@@ -436,3 +424,37 @@ footer{
     color: #3a3a3a;
 }
 
+/* media querries */
+/*For larger and medium screen size from 1200 px */
+@media screen and (max-width: 1200px){
+    #module-introduction {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+#title-block{
+    padding: 30px 0;
+    margin: 0;
+}
+#left-aim, #contact{
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#video-intro{
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+} 
+.course-about >div{
+    width: 100%;
+    clear: both;
+    height: 150px;
+    
+}
+
+hr {
+    display: none;
+}
+}
