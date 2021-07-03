@@ -21,7 +21,7 @@ body{
     color: #fff;
 }
 .menu-bar ul li{
-    width: 120px;
+    width: 100%;
     margin: 15px;
     padding: 15px;
 }
@@ -39,9 +39,10 @@ body{
 .menu-bar ul li:hover .drop-down{
     display: block;
     position: absolute;
-    background: rgb(0, 100, 0);
+    background: #08A9B4;
     margin-top: 15px;
     margin-left: -15px;
+    z-index: 1000;
 }
 .menu-bar ul li:hover .drop-down ul{
  display: block;
@@ -54,6 +55,7 @@ body{
     background: transparent;
     border-radius: 0;
     text-align: left;
+    
 }
 .menu-bar ul li:hover .drop-down ul li a:hover{
     color:teal;
