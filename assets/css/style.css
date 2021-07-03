@@ -433,10 +433,13 @@ footer{
 /*For larger and medium screen size from 1200 px */
 @media screen and (max-width: 768px){
     
+    #logo{
+        margin-left: 1px;
+    }
     .menu-bar ul li{
         width: 33%;
-        margin: 15px;
-        padding: 15px;
+        margin: 5px;
+        padding: 5px;
         
     } 
     .menu-bar {
@@ -479,7 +482,7 @@ hr {
 .wrapper{
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 30%;
+    margin-top: 50%;
 }
 #module-content{
     width: 100%;
@@ -518,7 +521,37 @@ hr {
 /*For tablet screen size from 768 -992 px */
 @media screen and (min-width: 768px) and (max-width: 992px){
 
-
-
+    #title-block{
+        text-align: left;
+        margin-left: 70px;
+    }
+    .menu-bar{
+        width: 100%;
+        height: 70px;
+    }
+    .menu-bar ul{
+        float: right;
+        margin-top: 15px;
+    }
+    .left-aim-heading {
+        float: left;
+        margin-left: 15px;
+    }
+    .left-aim-heading > p{
+        margin-left: 1px;
+    }
+    .left-aim-heading p,li{
+        margin-left: 20px;
+    }
+    .class-block{
+        margin-left: 15px;
+    }
+    #video-intro{
+        margin-top: 20px;
+        
+    }
+    .wrapper{
+        margin-top: 17%;
+    }
 }
 
