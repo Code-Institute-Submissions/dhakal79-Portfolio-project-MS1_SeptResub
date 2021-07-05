@@ -390,11 +390,6 @@ padding-left: 25px;
   }
   
 */
-/* Course outline page*/
-#outline{
-margin-left: 50px;
-}
-
 
 /* theory page*/
 .content{
@@ -404,7 +399,10 @@ margin-left: 50px;
     justify-content: center;
     margin-top: 10px;
 }
-
+.content-outline{
+    width: 500px;
+    height: 1200px;
+}
 .content .content-details{
     background:#fff;
     margin: 5px;
