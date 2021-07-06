@@ -488,20 +488,22 @@ footer{
 }
 
 /* media querries */
-/*For larger and medium screen size from 1200 px */
+/*For screen size max width 768 px */
 @media screen and (max-width: 768px){
     
     #logo{
-        margin-left: 1px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 0px;
     }
     .menu-bar ul li{
         width: 33%;
         margin: 5px;
-        padding: 5px;
+        padding: 18px;
         
     } 
     .menu-bar {
-        text-align: left;
+        text-align: right;
     }
     #module-introduction {
         width: 85%;
@@ -575,6 +577,11 @@ hr {
     width: 80%;
 } 
 }
+.social-media i{
+    margin: 0;
+    
+}
+}
 
 /*For tablet screen size from 768 -992 px */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -593,7 +600,7 @@ hr {
     }
     .left-aim-heading {
         float: left;
-        margin-left: 15px;
+        margin-left: 50px;
     }
     .left-aim-heading > p{
         margin-left: 1px;
@@ -609,7 +616,38 @@ hr {
         
     }
     .wrapper{
-        margin-top: 17%;
+        margin-top: 15%;
     }
 }
 
+/* Media query max width 1200px */
+@media screen and (max-width: 1200px) {
+
+    #title-block {
+        margin: 20px 0;
+        padding-left: 50px;
+    }
+    #video-intro video {
+        width: 100%;
+    }
+    .wrapper {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    
+element.style {
+}
+.topic .topic-detail {
+       
+    margin: 0px 20px 0px 20px;
+    width: 100%;
+    
+}
+h1, h2, h3 {
+    letter-spacing: 0px;
+   
+}
+.topic{
+    text-align: left;
+}
+}
