@@ -9,6 +9,7 @@ body{
     font-family: lato, sans-serif;
     font-weight: bold;
     color: #3a3a3a; 
+    
 
 }
 .menu-bar{
@@ -143,9 +144,7 @@ transform: scale(1.1);
 }
 
 /*module introduction section */
-#module-introduction{
-    height: 600px;
-}
+
 .course-about{
     display:flex;
     text-align: left;
@@ -488,8 +487,102 @@ footer{
 }
 
 /* media querries */
-/*For screen size max width 768 px */
-@media screen and (max-width: 768px){
+
+
+/*For tablet screen size from 768 -992 px */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    #video-intro video{
+        width: 100%;
+        
+    }
+
+    .course-about {          
+          
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #left-aim, #contact, #video-intro {
+        width: 50%;
+        
+    }
+    .left-aim-heading p, li {
+        padding-top: 0;
+    }
+    .coordinator img{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    .coordinator-contact {
+        margin-top: 0;
+    }
+    #module-content{
+        display: flex;
+    }
+    #module-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .topic {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    .topic-detail{
+        width: 50%;
+        
+    }
+    .wrapper{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    hr{
+        width: 70%;
+    }
+}
+      /*
+        #title-block{
+        text-align: left;
+        margin-left: 70px;
+    }
+    .menu-bar{
+        width: 100%;
+        height: 70px;
+    }
+    .menu-bar ul{
+        float: right;
+        margin-top: 15px;
+    }
+    .left-aim-heading {
+        float: left;
+        margin-left: 50px;
+    }
+    .left-aim-heading > p{
+        margin-left: 1px;
+    }
+    .left-aim-heading p,li{
+        margin-left: 20px;
+    }
+    .class-block{
+        margin-left: 15px;
+    }
+    #video-intro{
+        margin-top: 20px;
+        
+    }
+    .wrapper{
+        margin-top: 15%;
+    }
+}
+*/
+
+
+
+
+/*For screen size max width 767 px */
+@media screen and (max-width: 767px){
     
     #logo{
         margin-left: 15px;
@@ -542,7 +635,7 @@ hr {
 .wrapper{
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 50%;
+    margin-top: 100px;
 }
 #module-content{
     width: 100%;
@@ -583,44 +676,8 @@ hr {
 }
 }
 
-/*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 992px){
 
-    #title-block{
-        text-align: left;
-        margin-left: 70px;
-    }
-    .menu-bar{
-        width: 100%;
-        height: 70px;
-    }
-    .menu-bar ul{
-        float: right;
-        margin-top: 15px;
-    }
-    .left-aim-heading {
-        float: left;
-        margin-left: 50px;
-    }
-    .left-aim-heading > p{
-        margin-left: 1px;
-    }
-    .left-aim-heading p,li{
-        margin-left: 20px;
-    }
-    .class-block{
-        margin-left: 15px;
-    }
-    #video-intro{
-        margin-top: 20px;
-        
-    }
-    .wrapper{
-        margin-top: 15%;
-    }
-}
-
-/* Media query max width 1200px */
+/* Media query max width 1200px 
 @media screen and (max-width: 1200px) {
 
     #title-block {
@@ -651,3 +708,4 @@ h1, h2, h3 {
     text-align: left;
 }
 }
+*/
