@@ -395,15 +395,16 @@ padding-left: 25px;
     display: flex;
     text-align: left;
     width: auto;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
+    
 }
 
 .content .content-details{
     background:#fff;
     margin: 5px;
     margin-bottom: 50px;
-    width: 500px;
+    width: 600px;
     height: 200px;
     padding: 20px;
     line-height: 20px;
@@ -420,33 +421,52 @@ padding-left: 25px;
 
 .image{
     width: 500px;
+    
 }
 .image img{
-    width: 100%;
-    height: 80%;
-    margin-top: 30px;
+    width: 90%;
+    height: 70%;
+    margin-top: 40px;
  }
 
 .image-turbid{
     width: 500px;
 }
 .image-turbid img{
-    width: 100%;
-    height: 60%;
+    width: 90%;
+    height: 70%;
+    margin-top: 40px;
 }
-
 
  .contact-details h3{
      margin-bottom: 15px;
      margin-top: 5px;
  }
 
-
  .content-details img{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    width: 90%;
+    height: 90%;
     margin-top: 20px;
+  }
+  .content-details h3, p{
+      margin-bottom: 15px;
+  }
+  #turbidity-removal{
+    width: 70%;
+    height: 80%;
+    margin-top: 0;
+  }
+  #scheme{
+      margin: 0 auto;
+  }
+  #detail{
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+  }
+  .table-content li{
+      line-height: 10px;
+
   }
 
 /* footer */
