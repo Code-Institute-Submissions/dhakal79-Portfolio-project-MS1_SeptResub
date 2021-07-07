@@ -543,6 +543,8 @@ footer{
     hr{
         width: 70%;
     }
+}
+    /*
 .content{
     display: block;
 }
@@ -574,7 +576,7 @@ footer{
     margin-bottom: 15px;
 }
 }
-
+*/
 
 
       /*
@@ -670,7 +672,7 @@ hr {
 .wrapper{
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 270px;
 }
 #module-content{
     width: 100%;
