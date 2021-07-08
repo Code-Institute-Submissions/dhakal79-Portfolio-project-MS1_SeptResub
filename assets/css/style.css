@@ -434,7 +434,7 @@ padding-left: 25px;
 }
 .image-turbid img{
     width: 90%;
-    height: 70%;
+    height: 60%;
     margin-top: 40px;
 }
 
@@ -444,11 +444,12 @@ padding-left: 25px;
  }
 
  .content-details img{
-    width: 90%;
+    width: 80%;
     height: 90%;
     margin-top: 20px;
+    
   }
-  .content-details h3, p{
+   .content-details h3, p{
       margin-bottom: 15px;
   }
   #turbidity-removal{
@@ -708,22 +709,34 @@ hr {
 
 .social-media i{
     margin: 0;
-    
+   
+    /* theory page */
 }
 .content{
     display: block;
 }
 .content .content-details {
-    width: 100%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 0px;
    
 }
+.content-details li{
+    margin-left: 20px;
+}
 
-
-.image{
+.image {
     width: 100%;
+}
+.image img{
+    margin-left: 20px;
+    margin-top: 0px;
 }
 .content-details h2{
     letter-spacing: 0px;
+}
+.content-details img{
+    margin: 0 auto;
 }
 #logo h1{
     letter-spacing: 0px;  
@@ -731,7 +744,25 @@ hr {
 .image-turbid {
     width: 100%;
 }
+.image-turbid img{
+    margin-left: 20px;
+    margin-top: 0px;
+}
 
+.content-details h3, p{
+margin-bottom: 0px;
+}
+#scheme{
+    width: 100%;
+}
+#detail{
+    margin-top: 20px;
+    width: 100%;
+}
+.table-content li {
+    line-height: 20px;
+}
+}
 
 
 
