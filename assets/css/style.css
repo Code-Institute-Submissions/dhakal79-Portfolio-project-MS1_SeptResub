@@ -283,7 +283,7 @@ hr{
   }
   
   .contact-heading h2 {
-    color: #000000;
+    color: #046231;
     margin-bottom: 40px;
     font-size: 210%;
   }
@@ -315,7 +315,7 @@ width: 550px;
 }
 
 .questionnaires h3{
-    color: #151414;
+    color: #046231;
     margin-top: 20px;
     font-weight: 200;
    
@@ -599,84 +599,6 @@ margin-bottom: 0px;
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-/*
-.image{
-    width: 70%;
-}
- .image img{
-        margin-left: 90px;
-    }
- .image-turbid img{
-        margin-left: 90px; 
-}
-.content-details ul{
-    margin: 0;
-}
-
-.content .content-details {
-    margin-bottom: 0;
-    margin-left: 40px;
-}
-.content-details h3 {
- margin-bottom: 20px;
-
-}
-.content-details img{
-    margin-top: 0;
-}
-.content-details p{
-    margin-bottom: 15px;
-}
-}
-*/
-
-
-      /*
-        #title-block{
-        text-align: left;
-        margin-left: 70px;
-    }
-    .menu-bar{
-        width: 100%;
-        height: 70px;
-    }
-    .menu-bar ul{
-        float: right;
-        margin-top: 15px;
-    }
-    .left-aim-heading {
-        float: left;
-        margin-left: 50px;
-    }
-    .left-aim-heading > p{
-        margin-left: 1px;
-    }
-    .left-aim-heading p,li{
-        margin-left: 20px;
-    }
-    .class-block{
-        margin-left: 15px;
-    }
-    #video-intro{
-        margin-top: 20px;
-        
-    }
-    .wrapper{
-        margin-top: 15%;
-    }
-}
-*/
-
 /* feedback page */
 /*For tablet screen size from 768 -992 px */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -838,7 +760,37 @@ margin-bottom: 0px;
 .table-content li {
     line-height: 20px;
 }
+
+/* feedback page */
+
+.contact-details {
+    width: 100%;
 }
+.radio-botton {
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+    
+}
+.feedback-questionnaire {
+    padding-left: 0px;
+}
+.additional-remarks h2 {
+    font-size: 135%;
+}
+.questionnaires h2{
+    font-size: 135%;
+}
+.questionnaires h3{
+    font-size: 120%;
+}
+.contact-details h2 {
+    font-size: 135%;
+}
+.contact-heading h2 {
+    font-size: 140%;
+}
+}
+    
 
 
 
