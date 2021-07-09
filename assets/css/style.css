@@ -530,6 +530,9 @@ footer{
     hr{
         width: 70%;
     }
+    #title-block h2 {
+        margin-left: 42px;
+    }
 
 
    /* theory page tablet screen size from 768 -992 px */
