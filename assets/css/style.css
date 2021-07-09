@@ -80,42 +80,6 @@ body{
               
     }
    
-    /*navigation links */
-/*    
-.menu-bar{
-        height: 73px;
-        width: 100%;
-        background-color: #08A9B4;
-        position: relative;
-        z-index: 9999;
-      }
-
-#nav{
-    font-size: 100%;
-    letter-spacing: 4px;
-}
-#nav, #logo{
-    line-height: 75px;
-}
-
-#nav li{
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#nav a{
-    text-decoration: none;
-    color: #000000;    
-}
-#nav a:hover{
-    border-bottom: 1px solid #3a3a3a;
-}
-.active{
-    border-bottom: 1px solid #3a3a3a;
-}
-/*hero image*/
-
 #animation{
     height: 500px;
     width: 100%;
@@ -191,9 +155,14 @@ hr{
 }
 .left-aim-heading p, li{
     line-height: 25px;
-    padding-top: 10px;
+    padding-top: 2px;
     color: #201D1E;
+    }
+.left-aim-heading li{
+    margin-left: 20px;
 }
+
+
 #title-block{
     width: 600px;
     height: 50px;
@@ -205,8 +174,10 @@ hr{
     font-size: 150%;
     color: white;
     padding-left: 20px;
-   
-    
+     
+}
+#title-block h2{
+margin-left: 60px;
 }
 .class-block{
     width: 100%;
@@ -215,13 +186,21 @@ hr{
     color: white;
     margin-left: 60px;
 }
+.class-block li{
+    margin-left: 25px;
+   
+}
 #contact-details{
     display: flex;
 }
+
 .coordinator{
     margin-top: 10px;
     color: white;
     margin-left: 60px;
+}
+.coordinator img{
+    margin-top: 20px;
 }
 .coordinator-contact{
     margin-top: 20px;
@@ -229,14 +208,15 @@ hr{
 }
 .coordinator-contact p{
     color: #046231;
-    line-height: 30px;
+    line-height: 15px;
+    margin-top: 20px;
 }
 
 /* section 3 topics */
 .wrapper{
    margin-top: 5%; 
 }
-.wrapper h1{
+.wrapper h2{
     font-family: oswald, sans-serif;
     font-size: 20px;
     margin-bottom: 50px;
@@ -251,7 +231,7 @@ hr{
 }
 .topic .topic-detail{
     background: #BDFB13;
-    margin: 5px;
+    margin: 2px;
     margin-bottom: 50px;
     width: 300px;
     padding: 20px;
@@ -340,7 +320,7 @@ width: 550px;
     margin-top: 20px;
 } 
 .additional-remarks h2{
-    margin-bottom: 20px;
+     margin-bottom: 20px;
 }     
 
 .additional-remarks textarea{
