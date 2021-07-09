@@ -32,7 +32,8 @@ body{
 }
 .active, .menu-bar ul li:hover{
     background: #2bab0d;
-    border-radius: 3px;
+    border-radius: 10px;
+    
 }
 .drop-down{
     display: none;
@@ -377,6 +378,7 @@ width: 550px;
 */
 
 /* theory page*/
+
 .content{
     display: flex;
     text-align: left;
@@ -388,7 +390,7 @@ width: 550px;
 
 .content .content-details{
     background:#fff;
-    margin: 5px;
+    margin: 35px;
     margin-bottom: 50px;
     width: 600px;
     height: 200px;
@@ -413,6 +415,7 @@ width: 550px;
     width: 90%;
     height: 70%;
     margin-top: 40px;
+   
  }
 
 .image-turbid{
@@ -438,6 +441,7 @@ width: 550px;
    .content-details h3, p{
       margin-bottom: 15px;
   }
+  
   #turbidity-removal{
     width: 70%;
     height: 80%;
@@ -452,7 +456,7 @@ width: 550px;
       margin: 0 auto;
   }
   .table-content li{
-      line-height: 10px;
+      line-height: 20px;
 
   }
 
