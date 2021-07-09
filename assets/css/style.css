@@ -282,17 +282,17 @@ hr{
     
   }
   
-  .contact-heading h2 {
+  .contact-heading h1 {
     color: #046231;
     margin-bottom: 40px;
-    font-size: 210%;
+    
   }
   
   .contact-details{
 width: 550px;
   } 
   .contact-details h2{
-      font-size: 30px;
+     
       margin-bottom: 20px;
   }
   .contact-details input{
@@ -313,14 +313,12 @@ width: 550px;
       margin-left: 25px;
   }
   
-  .questionnaires h2{
-    font-size: 30px;
-}
+ 
 
 .questionnaires h3{
     color: #046231;
     margin-top: 20px;
-    font-weight: 200;
+   
    
 }
 .questionnaires hr{
@@ -342,7 +340,6 @@ width: 550px;
     margin-top: 20px;
 } 
 .additional-remarks h2{
-    font-size: 30px;
     margin-bottom: 20px;
 }     
 
