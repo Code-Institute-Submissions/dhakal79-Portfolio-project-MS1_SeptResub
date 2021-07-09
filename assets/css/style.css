@@ -309,6 +309,9 @@ width: 550px;
     border-color:rgb(153, 8, 32);
     cursor: pointer;
   }
+  .contact-details fa{
+      margin-left: 25px;
+  }
   
   .questionnaires h2{
     font-size: 30px;
@@ -326,12 +329,14 @@ width: 550px;
     margin: 10px 0;
 }
 
+
 .feedback-questionnaire{
-padding-left: 25px;
-}
+    padding-left: 25px;
+    }
 .radio-botton{
     margin: 0 20px 40px 0;
     cursor: pointer;
+    line-height: 15px;
 }
 .additional-remarks{
     margin-top: 20px;
@@ -363,7 +368,7 @@ padding-left: 25px;
   }
   
   .button:hover {
-    background-color: rgb(209, 152, 231);
+    background-color: rgb(4, 82, 39);
     color: #e74c3c;
     cursor: pointer;
   }
@@ -376,6 +381,10 @@ padding-left: 25px;
       display:inline-block;
       vertical-align: bottom;
 
+  }
+  ::placeholder{
+      padding: 5px;
+     
   }
  /*
   .form-inline {
