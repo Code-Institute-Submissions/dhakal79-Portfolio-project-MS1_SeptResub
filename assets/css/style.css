@@ -629,6 +629,10 @@ margin-bottom: 0px;
     text-align: center;
     margin-left: 80px;
 }
+
+#title-block h2 {
+    margin-left: 0px;
+}
 .course-about {
     display:inline-block;
     width: 100%;
@@ -655,8 +659,8 @@ hr {
 }
 .wrapper{
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 270px;
+    margin-bottom: 0px;
+    margin-top: 170px;
 }
 #module-content{
     width: 100%;
@@ -672,6 +676,14 @@ hr {
 .coordinator{
     margin-left: 0px;
 }
+.coordinator img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.coordinator-contact p {
+    margin-top: 10px;
+}
 .class-block{
  margin-left: 0px;
 }
@@ -686,6 +698,11 @@ hr {
     width: 100%;
     
 }
+#video-intro {
+    margin-top: 25px;
+    
+}
+
 .topic .topic-detail {
     margin: 15px 15px 10px 15px ;
     width: 80%;
