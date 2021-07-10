@@ -10,6 +10,36 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
 ## Table of Contents 
 
+# Table of Contents
+ [1. User Expereince (UX) design](#ux)
+  - [User Goals:](#user-goals)
+  - [User Expectations:](#user-expectations)
+  - [Site Design Strategy](#site-strategy)
+  -	[Colour scheme and font](#color-scheme)
+  - [Audio/video controls](#audio-video)
+  - [Site skeleton (wireframes)-3 pages](#wireframes)
+    - [Introduction page](#introduction-page)
+    - [Theory page](#theory-page)
+    - [Feedback page](#feedback-page)
+
+      
+  [2. Features](#features)
+
+  [3.Technologies used](#technologies-used)
+
+  [4.Testing](#testing)
+
+  [5. Deployment](#deployment)
+
+  [6. End products](#end-products)
+
+  [7. Acknowledgement](#acknowledgement)
+
+  
+
+
+
+
 ### Project Goals
 
 The main goal of this website is to make module "unit operation in water treatment" online for student who would like to follow the course from distance. 
