@@ -35,8 +35,74 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
   [7. Acknowledgement](#acknowledgement)
 
-  
+  <a name="ux"></a>
+# 1. User Expereince (UX) design
+  [Go to the top](#table-of-contents)
 
+<a name="user-goals"></a>
+## User Goals
+  [Go to the top](#table-of-contents)
+
+<a name="user-expectations"></a>
+## User Expectations
+  [Go to the top](#table-of-contents)
+
+<a name="site-strategy"></a>
+## Site Strategy
+  [Go to the top](#table-of-contents)
+
+<a name="color-scheme"></a>
+## Color Scheme
+  [Go to the top](#table-of-contents)
+
+<a name="audio-video"></a>
+## Audio-Video
+  [Go to the top](#table-of-contents)
+
+<a name="wireframes"></a>
+## Site Skeleton
+  [Go to the top](#table-of-contents)
+	
+<a name="introduction-page"></a>
+### Introduction Page
+  [Go to the top](#table-of-contents)
+	
+<a name="theory-page"></a>
+### Theory Page
+  [Go to the top](#table-of-contents)
+
+<a name="feedback-page"></a>
+### Feedback Page
+  [Go to the top](#table-of-contents)
+
+
+  <a name="features"></a>
+# 2. Features
+  [Go to the top](#table-of-contents)
+ 
+   <a name="technologies-used"></a>
+# 3. Technologies Used
+  [Go to the top](#table-of-contents)
+
+  <a name="testing"></a>
+# 4. Testing
+  [Go to the top](#table-of-contents)
+
+  <a name="deployment"></a>
+# 5. Deployment
+  [Go to the top](#table-of-contents)
+
+  <a name="end-product"></a>
+# 6. End Products
+  [Go to the top](#table-of-contents)
+
+  <a name="acknowledgement"></a>
+# 7. Acknowledgement
+  [Go to the top](#table-of-contents)
+
+
+
+  
 
 
 
