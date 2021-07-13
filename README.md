@@ -62,18 +62,26 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 <a name="wireframes"></a>
 ## Site Skeleton
   [Go to the top](#table-of-contents)
-	
+ 
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. The concept design (wireframes) of webpages (3 pages) prepared is presented below.
+
 <a name="introduction-page"></a>
 ### Introduction Page
-  [Go to the top](#table-of-contents)
+![Desktop Version](./assets/images/introduction-desktop.png)
+![Mobile Version](./assets/images/introduction-mobile.png)
+
 	
 <a name="theory-page"></a>
 ### Theory Page
-  [Go to the top](#table-of-contents)
+  ![Desktop Version](./assets/images/theory-desktop.png)
+
+![Mobile Version](./assets/images/theory-mobile.png)
 
 <a name="feedback-page"></a>
 ### Feedback Page
-  [Go to the top](#table-of-contents)
+![Desktop Version](./assets/images/feedback-desktop.png)
+
+![Mobile Version](./assets/images/feedback-mobile.png)
 
 
   <a name="features"></a>
@@ -110,8 +118,3 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
 The main goal of this website is to make module "unit operation in water treatment" online for student who would like to follow the course from distance. 
 
-## Skeleton
-[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. The concept design (wireframes) of webpages (3 pages) prepared is presented below.
-
-### Wire-frames
-Web browser Introduction page
