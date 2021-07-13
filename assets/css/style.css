@@ -251,6 +251,7 @@ margin-left: 60px;
 #feedback{
     clear: both;
     padding-left: 30px;
+    
    }
 .contact-form {
     color:#151414;
@@ -354,16 +355,18 @@ width: 550px;
   .form-layout {
     text-align: left;
     max-width: 1000px;
+    display: flex;
   }
-  .form-inline{
-      display:inline-block;
-      vertical-align: bottom;
+  .location-map {
+    margin-top: 200px;
+     padding: 200px;
 
   }
   ::placeholder{
       padding: 5px;
      
   }
+ 
  /*
   .form-inline {
     display: inline-block;
