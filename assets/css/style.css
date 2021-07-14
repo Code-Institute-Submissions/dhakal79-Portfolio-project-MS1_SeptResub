@@ -246,11 +246,16 @@ margin-left: 60px;
     margin-top: 2px;
     padding-bottom: 10px;
 }
+.scroll{
+    margin-left: 50px;
+    color: #2012df;
+}
     /* Contact_us page */
 
 #feedback{
     clear: both;
     padding-left: 30px;
+    display: ;
     
    }
 .contact-form {
