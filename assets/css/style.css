@@ -30,7 +30,7 @@ body{
     text-decoration: none;
     color: #fff;
 }
-.active, .menu-bar ul li:hover{
+.menu-bar ul li:hover{
     background: #2bab0d;
     border-radius: 10px;
     
@@ -359,13 +359,16 @@ width: 550px;
  
   .form-layout {
     text-align: left;
-    max-width: 1000px;
+    max-width: 800px;
     display: flex;
   }
   .location-map {
     margin-top: 200px;
-     padding: 200px;
-
+     padding: 80px;
+  }
+  .map{
+      width: 700px;
+      height: 600px;
   }
   ::placeholder{
       padding: 5px;
@@ -548,13 +551,21 @@ footer{
 
 
    /* theory page tablet screen size from 768 -992 px */
+#logo{
+    margin-left: 20px;
 
+}
+.menu-bar ul li {
+    margin-top: 50px;
+}
 .content{
     display: block;
 }
 .content .content-details {
-    width: 100%;
+    width: auto;
     height: auto;
+    padding: 20px;
+    margin-bottom: 5px;
 }
 
 .content-details li{
@@ -565,23 +576,23 @@ footer{
     width: 100%;
 }
 .image img{
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 0px;
 }
 .content-details h2{
     letter-spacing: 0px;
 }
 .content-details img{
-    margin: 0 auto;
+    padding: 20px;
 }
 #logo h1{
     letter-spacing: 0px;  
 }
 .image-turbid {
-    width: 100%;
+    width: 90%;
 }
 .image-turbid img{
-    margin-left: 20px;
+    margin-left: 60px;
     margin-top: 0px;
 }
 
@@ -657,6 +668,9 @@ margin-bottom: 0px;
     text-align: center;
     margin-left: 80px;
 }
+h2{
+    font-size: 130%;
+}
 
 #title-block h2 {
     margin-left: 0px;
@@ -688,7 +702,7 @@ hr {
 .wrapper{
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 170px;
+    margin-top: 70px;
 }
 #module-content{
     width: 100%;
@@ -735,17 +749,21 @@ hr {
     margin: 15px 15px 10px 15px ;
     width: 80%;
 } 
+.left-aim-heading {
+    width: 100%;
+}
 
 .social-media i{
     margin: 0;
+}
    
     /* theory page */
-}
+
 .content{
     display: block;
 }
 .content .content-details {
-    width: 90%;
+    width: auto;
     height: auto;
     margin-bottom: 0px;
    
@@ -780,6 +798,7 @@ hr {
 
 .content-details h3, p{
 margin-bottom: 0px;
+
 }
 #scheme{
     width: 100%;
@@ -833,6 +852,12 @@ margin-bottom: 0px;
       height: 150px;
       margin-left: 30px;
   }
+  #feedback {
+      padding: 5px;
+}
+#coagulation{
+    padding: 5px;
+}
 }
     
 
