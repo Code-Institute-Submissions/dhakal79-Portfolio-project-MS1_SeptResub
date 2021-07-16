@@ -811,9 +811,10 @@ hr {
     display: block;
 }
 .content .content-details {
-    width: auto;
+    width: 280px;
     height: auto;
     margin-bottom: 0px;
+    margin: 15px;
    
 }
 .content-details li{
@@ -832,6 +833,7 @@ hr {
 }
 .content-details img{
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 #logo h1{
     letter-spacing: 0px;  
