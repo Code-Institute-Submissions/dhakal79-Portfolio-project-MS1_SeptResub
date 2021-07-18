@@ -492,7 +492,7 @@ footer{
 /* media querries */
 
 /*For screen size larger than 993px */
-
+/*
 @media screen and (min-width: 993px){
     .course-about {          
           
@@ -500,12 +500,12 @@ footer{
         justify-content: space-between;
 }
 
-/*
+
 
 #video-intro video{
     width: 100%;
 }
-*/
+
 #left-aim, #contact, #video-intro {
     width: 50%;
     
