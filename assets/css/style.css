@@ -492,15 +492,13 @@ footer{
 /* media querries */
 
 /*For screen size larger than 993px */
-/*
-@media screen and (min-width: 993px){
+
+@media screen and (min-width: 1025px){
     .course-about {          
           
         flex-wrap: wrap;
         justify-content: space-between;
 }
-
-
 
 #video-intro video{
     width: 100%;
@@ -533,7 +531,6 @@ footer{
    justify-content: space-between; 
 }
 }
-/*
 .topic {
     display: flex;
     flex-wrap: wrap;
@@ -560,6 +557,7 @@ footer{
     margin-top: 60px;
 }
 
+/*
 .form-layout {
      flex-wrap: wrap;
     justify-content: space-between; 
@@ -569,10 +567,10 @@ footer{
     padding: 80px;
 }
 }
-*/
+/*
 
 /*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
     #video-intro video{
         width: 100%;
@@ -691,7 +689,7 @@ margin-bottom: 0px;
 
 /* feedback page */
 /*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
 .questionnaires hr{
     width: 0px;
@@ -705,7 +703,8 @@ margin-bottom: 0px;
 }
 
 .form-layout {
-    display: block;
+   flex-direction: column;
+
   }
 .location-map {
     margin-top: 0px;
