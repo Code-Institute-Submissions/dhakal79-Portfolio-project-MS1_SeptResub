@@ -39,6 +39,16 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 # 1. User Expereince (UX) design
   [Go to the top](#table-of-contents)
 
+  The impact of COVID-19 pandemic on university teaching is to turn face to face teaching to online learning. It was a challenge for lecturer to switch all face to face teaching to online learning. This project is aimed to provide a platform where students can learn online for a module name" 
+  unit operation in water treatment". 
+
+  The following users types can be benifitted from the website:
+
+* Professionals dealing with engineering, management and education in the fields of water supply and wastewater and urban infrastructure.
+* Post graduate students in environmental engineering. 
+* Participants from government organisations ( both local and national agencies), non-governmental organisations and the private sector. 
+ 
+
 <a name="user-goals"></a>
 ## User Goals
   [Go to the top](#table-of-contents)
@@ -46,6 +56,13 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 <a name="user-expectations"></a>
 ## User Expectations
   [Go to the top](#table-of-contents)
+
+The website content provides state-of-the-art knowledge and experience on the technologies and design practices of conventional water treatment systems. The site can be an ideal for practicing engineers who are working in the water supply and sewerage systems. Folloiwng user's expections are considered while designing the site:
+* The site structure is designed considering the expectation of users to be simple and easy to use
+* The user interface is easy to navigate (inlcude main navigation bar, drop dwon menu bar and a link at bottom of page that user can go back to top of the page in just one click).
+* Responsive design for all screen/device sizes like mobile, tablet and desktop.
+* Feedback/course evalaution page provided where users can provide their comments and suggestion for future improvement
+* a link for application provided for those users who will be interested to take this course faceto face at IHE Delft.
 
 <a name="site-strategy"></a>
 ## Site Strategy
@@ -134,7 +151,7 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
 
 
-### Project Goals
 
-The main goal of this website is to make module "unit operation in water treatment" online for student who would like to follow the course from distance. 
+
+
 
