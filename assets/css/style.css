@@ -76,7 +76,7 @@ body{
 
     h1,h2,h3{
        font-family: oswald, sans-serif;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color:#046231;
               
     }
@@ -402,7 +402,7 @@ width: 550px;
     background:#fff;
     margin: 35px;
     margin-bottom: 50px;
-    width: 600px;
+    width: 400px;
     height: 200px;
     padding: 20px;
     line-height: 20px;
@@ -492,19 +492,48 @@ footer{
 /* media querries */
 
 /*For screen size larger than 993px */
+
 @media screen and (min-width: 993px){
     .course-about {          
           
         flex-wrap: wrap;
         justify-content: space-between;
 }
+
+/*
+
 #video-intro video{
     width: 100%;
 }
+*/
 #left-aim, #contact, #video-intro {
     width: 50%;
     
 }
+.content{
+    display: block;
+}
+.content .content-details {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.image {
+    width: 80%;
+}
+.image img{
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.form-layout {
+    display:flex;
+   justify-content: space-between; 
+}
+}
+/*
 .topic {
     display: flex;
     flex-wrap: wrap;
@@ -530,16 +559,17 @@ footer{
     height: 70%;
     margin-top: 60px;
 }
+
 .form-layout {
-    display: block;
-    margin-top: 0px;
+     flex-wrap: wrap;
+    justify-content: space-between; 
 }
 .location-map {
    margin-top: 5px; 
     padding: 80px;
 }
 }
-
+*/
 
 /*For tablet screen size from 768 -992 px */
 @media screen and (min-width: 768px) and (max-width: 992px){
