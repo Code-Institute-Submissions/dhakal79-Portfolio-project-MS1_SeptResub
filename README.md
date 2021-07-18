@@ -50,34 +50,41 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
  
 
 <a name="user-goals"></a>
-## User Goals
+## 1.1 User Goals
   [Go to the top](#table-of-contents)
 
 <a name="user-expectations"></a>
-## User Expectations
+## 1.2 User Expectations
   [Go to the top](#table-of-contents)
 
 The website content provides state-of-the-art knowledge and experience on the technologies and design practices of conventional water treatment systems. The site can be an ideal for practicing engineers who are working in the water supply and sewerage systems. Folloiwng user's expections are considered while designing the site:
-* The site structure is designed considering the expectation of users to be simple and easy to use
+* The site structure is designed considering the expectation of users to be simple and easy to use.
 * The user interface is easy to navigate (inlcude main navigation bar, drop dwon menu bar and a link at bottom of page that user can go back to top of the page in just one click).
 * Responsive design for all screen/device sizes like mobile, tablet and desktop.
 * Feedback/course evalaution page provided where users can provide their comments and suggestion for future improvement
 * a link for application provided for those users who will be interested to take this course faceto face at IHE Delft.
 
 <a name="site-strategy"></a>
-## Site Strategy
+## 1.3 Site Strategy
   [Go to the top](#table-of-contents)
 
 <a name="color-scheme"></a>
-## Color Scheme
+## 1.4 Color Scheme
   [Go to the top](#table-of-contents)
+
+The choice of website right foreground and background colour is essential that decides the site visitors wheather to emote the site or not. In this design we consider the accessibility guideline i.e, contrast between background and foreground colours. We make use of [WebAim](https://webaim.org/resources/contrastchecker/)  to select the background and foreground color. Here is an example how the choice of background and foreground is decided to the site.
+![color contrast](./assets/images/color-contrast.jpg)
+
+Other foreground and background color used in the sites are
+* foreground: #046231
+* background: #ffffff
 
 <a name="audio-video"></a>
-## Audio-Video
+## 1.5 Audio-Video/Images
   [Go to the top](#table-of-contents)
-
+This website consider of having images, audio/video that helps the users to understand the content easily. Having picture, audio/video consider worth a thousand words” when creating a web application. As far as possible all the images, video included in the website, is considered to be of high quality. The included audio/video is provided with control actions such as playing of audio/video that allows the user to initiate and control the actions.
 <a name="wireframes"></a>
-## Site Skeleton
+## 1.6 Site Skeleton
   [Go to the top](#table-of-contents)
  
 [Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. The concept design (wireframes) of webpages (3 pages) prepared is presented below.
