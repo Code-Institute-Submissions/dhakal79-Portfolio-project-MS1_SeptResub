@@ -549,7 +549,7 @@ footer {
 /* media querries */
 
 /*For screen size larger than 993px */
-
+/*
 @media screen and (min-width: 1025px) {
     #title-block h2 {
         margin-left: 80px;
@@ -646,7 +646,7 @@ footer {
 /*
 
 /*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     #video-intro video {
         width: 100%;
@@ -792,7 +792,7 @@ footer {
 
 /* feedback page */
 /*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     .questionnaires hr {
         width: 0px;
