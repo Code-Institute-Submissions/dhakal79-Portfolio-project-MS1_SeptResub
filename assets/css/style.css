@@ -657,6 +657,7 @@ footer {
 
         flex-wrap: wrap;
         justify-content: space-between;
+        width: 670px;
     }
 
     #left-aim,
@@ -671,14 +672,22 @@ footer {
         padding-top: 0;
     }
 
+    .left-aim-heading li {
+        padding: 5px;
+    }
+
     .coordinator img {
         border-radius: 50%;
         width: 120px;
         height: 120px;
+        margin-top: 50px;
+
     }
 
     .coordinator-contact {
-        margin-top: 0;
+        margin-top: 50px;
+        width: 150px;
+        margin-left: 5px;
     }
 
     #module-content {
@@ -713,6 +722,11 @@ footer {
 
     #title-block h2 {
         margin-left: 42px;
+    }
+
+    .apply {
+        padding: 20px;
+        color: #2012df;
     }
 
 
