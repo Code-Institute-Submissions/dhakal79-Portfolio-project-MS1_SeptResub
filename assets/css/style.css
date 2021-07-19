@@ -176,7 +176,7 @@ hr {
 
 .left-aim-heading p,
 li {
-    line-height: 25px;
+    line-height: 30px;
     padding-top: 2px;
     color: #201D1E;
 }
@@ -243,6 +243,7 @@ li {
     margin-top: 20px;
 }
 
+
 /* section 3 topics */
 .wrapper {
     margin-top: 5%;
@@ -264,9 +265,9 @@ li {
 
 .topic .topic-detail {
     background: #BDFB13;
-    margin: 2px;
+    margin: 5px;
     margin-bottom: 50px;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     line-height: 20px;
     color: #3d3d3d;
@@ -419,19 +420,6 @@ li {
     padding: 5px;
 
 }
-
-/*
-  .form-inline {
-    display: inline-block;
-    vertical-align: bottom;
-  }
-  
-  .form-inline img {
-    max-width: 1000px;
-    border-radius: 10px;
-  }
-  
-*/
 
 /* theory page*/
 
@@ -656,8 +644,6 @@ footer {
     }
 }
 
-/*
-
 /*For tablet screen size from 768 -992 px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -815,11 +801,10 @@ footer {
     .table-content li {
         line-height: 25px;
     }
-}
 
-/* feedback page */
-/*For tablet screen size from 768 -992 px */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* feedback page */
+    /*For tablet screen size from 768 -992 px */
 
     .questionnaires hr {
         width: 0px;
@@ -1116,40 +1101,3 @@ footer {
         padding: 5px;
     }
 }
-
-
-
-
-
-/* Media query max width 1200px 
-@media screen and (max-width: 1200px) {
-
-    #title-block {
-        margin: 20px 0;
-        padding-left: 50px;
-    }
-    #video-intro video {
-        width: 100%;
-    }
-    .wrapper {
-        margin-top: 10%;
-        margin-left: 5%;
-    }
-    
-element.style {
-}
-.topic .topic-detail {
-       
-    margin: 0px 20px 0px 20px;
-    width: 100%;
-    
-}
-h1, h2, h3 {
-    letter-spacing: 0px;
-   
-}
-.topic{
-    text-align: left;
-}
-}
-*/
