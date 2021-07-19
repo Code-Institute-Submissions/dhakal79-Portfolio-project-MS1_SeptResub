@@ -132,6 +132,7 @@ This website consider of having images, audio/video that helps the users to unde
 
 * [WebAim](https://webaim.org/resources/contrastchecker/) was used to select the background and font color in the website.
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to validate the HTML code and CSS style used in the proejct.
+* [Ami](http://ami.responsivedesign.is/#) was used to develop a Mockup screenshot generator
 
 
 
@@ -139,10 +140,50 @@ This website consider of having images, audio/video that helps the users to unde
   <a name="testing"></a>
 # 4. Testing
   [Go to the top](#table-of-contents)
+## 4.1 Automated testing
+### 4.1.1 Google Developer Tools
+I make use of google developer tools (Chrome DevTools) as debugging tools. Using this tool i inspect for every elements that I added in HTML and CSS style. Once I was happy with, I copy the CSS style code from Chrome DevTools and paste in my CSS style sheet.
+
+### 4.1.2 Responsive Tools
+
+In order to make sure that design web pages are responsive to all device sizes, [Am I Responsive](http://ami.responsivedesign.is/) site was used to check it. 
+
+### 4.1.3 W3C Validator Tools
+
+[W3C Markup](https://validator.w3.org/#validate_by_input+with_options) was used to check for any errors within my HTML pages.
+
+![W3C HTML Validation](./assets/images/W3Chtml.jpg)
+The HTML checker notified me an error in my index.html page. it suggested that i should consider using h2-h6 elements to the section with id='animation" in the page. The error was solved by giving div instead of section.
+
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my CSS stylesheet. No errors were found.
+
+![W3C CSS Validation](./assets/images/W3CCSS.jpg)
+
+
+## 4.2 Manual Testing
+
+I have tested my site on multiple devices. These include:
+  - Galaxy S5 (360 x 640)
+  - iPhone 6/7/8 (375 x 667) 
+  - iPhone 6/7/8 plus (414 x 736)
+  - ipad (768 x 1024)
+  - iPhone XS Max
+  - iPad Pro (1024 x 1366)
+  - Huawei P20 Pro
 
   <a name="deployment"></a>
 # 5. Deployment
   [Go to the top](#table-of-contents)
+
+The site was deployed to GitHub pages using the following steps:
+- Sign up to GutHub
+- Create a new repository on GitHub.
+- Click on settings on the navigation bar under the repository title.
+- Select pages on the left menu bar.
+- Click on the master branch and save.
+- This will now generate a link with your website live.
+- The live link can be found here - (https://dhakal79.github.io/Portfolio-project-MS1/)
+
 
   <a name="end-product"></a>
 # 6. End Products
