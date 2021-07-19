@@ -549,22 +549,19 @@ footer {
 /* media querries */
 
 /*For screen size larger than 993px */
-/*
-@media screen and (min-width: 1025px) {
-    #title-block h2 {
-        margin-left: 80px;
-        margin-top: 20px;
-    }
 
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     .course-about {
 
         flex-wrap: wrap;
         justify-content: space-between;
+
     }
 
     #video-intro video {
         width: 100%;
     }
+
 
     #left-aim,
     #contact,
@@ -573,9 +570,23 @@ footer {
 
     }
 
-    .left-aim-heading li {
-        padding: 10px;
+    .left-aim-heading p,
+    li {
+        line-height: 28px;
     }
+
+    .topic {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25px;
+
+    }
+
+    .topic .topic-detail {
+        width: 300px;
+
+    }
+
 
     .content {
         display: block;
@@ -595,54 +606,56 @@ footer {
     .image img {
         margin-left: 80px;
         margin-top: 0px;
+        width: 60%;
+        height: 45%;
+    }
+
+    #turbidity-removal {
+        width: 50%;
+        height: 60%;
+        margin: 20px 0px 20px 80px;
+    }
+
+    .content-details h3,
+    p {
+        margin-bottom: 0px;
+    }
+
+    .image-turbid img {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    #scheme {
+        margin-left: 60px;
+    }
+
+    .content-details img {
+        width: 60%;
+        height: 50%;
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+
+    #detail {
+        width: 60%;
+        height: 70%;
+        margin-top: 30px;
+        margin-left: 60px;
     }
 
     .form-layout {
-        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+    }
+
+    .location-map {
+        margin-top: 5px;
+        padding: 20px;
+        margin-left: 40px;
     }
 }
 
-.topic {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 25px;
-
-}
-
-.topic .topic-detail {
-    width: 300px;
-
-}
-
-.image img {
-    width: 90%;
-    height: 45%;
-    margin-top: 80px;
-}
-
-.image-turbid img {
-    width: 90%;
-    height: 40%;
-    margin-top: 100px;
-}
-
-.content-details img {
-    width: 90%;
-    height: 70%;
-    margin-top: 60px;
-}
-
-/*
-.form-layout {
-     flex-wrap: wrap;
-    justify-content: space-between; 
-}
-.location-map {
-   margin-top: 5px; 
-    padding: 80px;
-}
-}
 /*
 
 /*For tablet screen size from 768 -992 px */
