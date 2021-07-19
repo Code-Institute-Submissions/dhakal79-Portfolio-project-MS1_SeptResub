@@ -192,9 +192,19 @@ The site was deployed to GitHub pages using the following steps:
   <a name="acknowledgement"></a>
 # 7. Acknowledgement
   [Go to the top](#table-of-contents)
+### Code
+* The footer code came from the Love Running projects
+* The code for image animation on index.html page came from the Love Running projects
+* Naviagtion drop down menu code came from a youtube video https://www.youtube.com/watch?v=wHFflWvii3M&t=508s
+* Coding for feedback.html page was inspired from differnt tutorial from https://codeinstitute.net/ 
+* The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
+* For README.md file, reference of https://github.com/Chris-McGonigle/emmas-beauty-parlour and https://github.com/iKelvvv/MS1 was considered. 
+* Thanks to my mentor Marcel for constructive feedback.
 
-
-
+### Content 
+ * All the contents for index.html page age came from https://www.un-ihe.org/unit-operations-water-treatment-coagulation-sedimentation-flotation-and-filtration
+ * All the content for theory.html came from lecture note IHE Delft.
+ * The front page water image in index.html came from [Google Images](https://www.google.com/imghp?hl=en)
   
 
 
