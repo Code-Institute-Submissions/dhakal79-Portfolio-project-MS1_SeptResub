@@ -111,13 +111,52 @@ This website consider of having images, audio/video that helps the users to unde
   <a name="features"></a>
 # 2. Features
   [Go to the top](#table-of-contents)
- 
+ ### All 3 pages:
+- Navigation bar is placed at the top right corner of the page, and cosnidered a hover effect that changes the colour (with green box) when we want to click the page. The hover effect is placed to improve the user expereince. 
+- Drop down menu bar is provided to the main menu bar of the theory.html page
+- Logo of IHE Delft is placed on the top left corner 
+- Background color of menu bar and foreground color were chosen considering the contrast between background and foreground colours. We make use of [WebAim](https://webaim.org/resources/contrastchecker/) to select the background and foreground color.
+- Social media links (for facebook, Linkden, Twitter and Youtube) are placed at the bottom of the each page in the footer. All the links will open in a new tab. 
+- Back to top link provided to each page at the bottom left corner. this will allow the visitor to access to the top oif page in one click.
+
+### Introduction page:
+- Water image is included just below the menubar to highlight that this website provides information about water. We provide zoom animation to the image to attract the attention of the user.
+- The page contain the title of the module "Unit Operation in Water Treatment" and below which which provided this divisions (using flex properties). The first division (left) provides information about aim of the module, learning objectives, the second division (middle) provides information about when to apply for the course and contact details of the module coordinator. finally, the last division contain a module introduction video (self recorded). 
+- An external link "Apply here" provided where interested users can apply for a face to face course.
+- Summary of topics to be covered in this module is presented in the bottom of the page (just above the social media link) using the property flex.
+
+The screenshot of introduction page is below:
+
+  Introduction page UI:
+  ![introduction page preview](./assets/images/introdcution-end-product.jpg)
+
+### Theory page:
+- This page provides theory of coagulation process in water treatment
+- page provides information in both text as well as graphs.
+- This page also provides the Table of content that helps users what topics needs to be covered in this course
+
+The screenshot of theory page is below:
+
+ Theory page UI:
+  ![theory page preview](./assets/images/theory-end-product.jpg)
+
+
+### Feedback page:
+- Include contact form that provides the user the ability to message site owner, provide feedback and suggestions. 
+- Inlcude module evaluation forms where users can choose the options from (strongly agree, agree, neutral, disagree, strongly disagree) using radio-button option.
+- Provide Submit and Reset buttons with hoever effect on it
+- The form use the method="POST" action="https://formdump.codeinstitute.net/"
+- I use the option of placeholder for full name and email address.
+
+The screenshot of feedback page is below:
+
+  Feedback page UI:
+  ![feedback page preview](./assets/images/feedback-end-product.jpg)
+
+
    <a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
-
-
-
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
  
@@ -133,10 +172,6 @@ This website consider of having images, audio/video that helps the users to unde
 * [WebAim](https://webaim.org/resources/contrastchecker/) was used to select the background and font color in the website.
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to validate the HTML code and CSS style used in the proejct.
 * [Ami](http://ami.responsivedesign.is/#) was used to develop a Mockup screenshot generator
-
-
-
-
   <a name="testing"></a>
 # 4. Testing
   [Go to the top](#table-of-contents)
