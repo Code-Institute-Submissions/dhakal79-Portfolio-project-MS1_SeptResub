@@ -223,7 +223,7 @@ li {
 }
 
 .coordinator {
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
     margin-left: 60px;
 }
@@ -241,6 +241,12 @@ li {
     color: #046231;
     line-height: 15px;
     margin-top: 20px;
+}
+
+.apply {
+    margin-left: 20px;
+    color: #2012df;
+    margin-top: 10px;
 }
 
 
@@ -544,6 +550,14 @@ footer {
         flex-wrap: wrap;
         justify-content: space-between;
 
+    }
+
+    .coordinator {
+        margin-top: 30px;
+    }
+
+    .coordinator img {
+        margin-top: 15px;
     }
 
     #video-intro video {
