@@ -190,6 +190,8 @@ In order to make sure that design web pages are responsive to all device sizes, 
 ![W3C HTML Validation](./assets/images/W3Chtml.jpg)
 The HTML checker notified me an error in my index.html page. it suggested that i should consider using h2-h6 elements to the section with id='animation" in the page. The error was solved by giving div instead of section.
 
+![W3C HTML error corrected](./assets/images/w3chtml-corrected.jpg)
+
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my CSS stylesheet. No errors were found.
 
 ![W3C CSS Validation](./assets/images/W3CCSS.jpg)
