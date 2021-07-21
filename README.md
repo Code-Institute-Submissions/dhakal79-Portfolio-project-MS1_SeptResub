@@ -153,7 +153,8 @@ The screenshot of feedback page is below:
   Feedback page UI:
   ![feedback page preview](./assets/images/feedback-end-product.jpg)
 
-
+The feedback form was correctly submitted  as  shown below.
+![feedback page submission](./assets/images/form.jpg)
    <a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
