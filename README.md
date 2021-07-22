@@ -2,7 +2,9 @@
 # Unit Operation in Water Treatment 
 Welcome! [IHE Delft](http://un-ihe.org)
 ## Introduction
-The overall aim of this project is to make module "unit operation in Water Treatment" online. This module is a course with 5 ECTS within the chair group of Water Supply Engineering at IHE Delft.
+IHE Delft Institute for Water Education is the largest international water education facility in the world. Its mission is to contribute to water related research and the education of water professionals. IHE Delft has provided graduate education to more than 15,000 water professionals from 162 countries. Over 150 PhD fellows are currently enrolled in water-related research and more than 120 water research and capacity development projects are carried out throughout the world. Due to COVID-19, IHE Delft is making education online if possible for all the modules. Within this new policy framework, I am going to make my module"unit operation in water treatment" online. This module has four componets coagulation, sedimentation, filtration and dissolved air floatation. 
+
+The overall aim of this project is to make online the componennt "coagulation" which I involve for teaching. 
 
 A live website can be found [here](https://dhakal79.github.io/Portfolio-project-MS1/).
 
@@ -14,7 +16,6 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
  [1. User Expereince (UX) design](#ux)
   - [User Goals:](#user-goals)
   - [User Expectations:](#user-expectations)
-  - [Site Design Strategy](#site-strategy)
   -	[Colour scheme and font](#color-scheme)
   - [Audio/video controls](#audio-video)
   - [Site skeleton (wireframes)-3 pages](#wireframes)
@@ -31,9 +32,7 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
   [5. Deployment](#deployment)
 
-  [6. End products](#end-products)
-
-  [7. Acknowledgement](#acknowledgement)
+  [6. Acknowledgement](#acknowledgement)
 
   <a name="ux"></a>
 # 1. User Expereince (UX) design
@@ -53,6 +52,9 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 ## 1.1 User Goals
   [Go to the top](#table-of-contents)
 
+The main goal of this website is to provide in depth theory about coagulation process in drinking water treatment. I want to provide information about coagulation to the target audience.
+
+
 <a name="user-expectations"></a>
 ## 1.2 User Expectations
   [Go to the top](#table-of-contents)
@@ -64,12 +66,8 @@ The website content provides state-of-the-art knowledge and experience on the te
 * Feedback/course evalaution page provided where users can provide their comments and suggestion for future improvement
 * a link for application provided for those users who will be interested to take this course faceto face at IHE Delft.
 
-<a name="site-strategy"></a>
-## 1.3 Site Strategy
-  [Go to the top](#table-of-contents)
-
 <a name="color-scheme"></a>
-## 1.4 Color Scheme
+## 1.3 Color Scheme
   [Go to the top](#table-of-contents)
 
 The choice of website right foreground and background colour is essential that decides the site visitors wheather to emote the site or not. In this design we consider the accessibility guideline i.e, contrast between background and foreground colours. We make use of [WebAim](https://webaim.org/resources/contrastchecker/)  to select the background and foreground color. Here is an example how the choice of background and foreground is decided to the site.
@@ -80,11 +78,11 @@ Other foreground and background color used in the sites are
 * background: #ffffff
 
 <a name="audio-video"></a>
-## 1.5 Audio-Video/Images
+## 1.4 Audio-Video/Images
   [Go to the top](#table-of-contents)
 This website consider of having images, audio/video that helps the users to understand the content easily. Having picture, audio/video consider worth a thousand words” when creating a web application. As far as possible all the images, video included in the website, is considered to be of high quality. The included audio/video is provided with control actions such as playing of audio/video that allows the user to initiate and control the actions.
 <a name="wireframes"></a>
-## 1.6 Site Skeleton
+## 1.5 Site Skeleton
   [Go to the top](#table-of-contents)
  
 [Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. The concept design (wireframes) of webpages (3 pages) prepared is presented below.
@@ -223,13 +221,8 @@ The site was deployed to GitHub pages using the following steps:
 - This will now generate a link with your website live.
 - The live link can be found here - (https://dhakal79.github.io/Portfolio-project-MS1/)
 
-
-  <a name="end-product"></a>
-# 6. End Products
-  [Go to the top](#table-of-contents)
-
   <a name="acknowledgement"></a>
-# 7. Acknowledgement
+# 6. Acknowledgement
   [Go to the top](#table-of-contents)
 ### Code
 * The footer code came from the Love Running projects
