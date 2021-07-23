@@ -440,7 +440,7 @@ li {
 
 .content .content-details {
     background: #fff;
-    margin: 35px;
+    margin-left: 35px;
     margin-bottom: 50px;
     width: 400px;
     height: 200px;
@@ -473,6 +473,11 @@ li {
 
 .image-turbid {
     width: 500px;
+
+}
+
+.image-turbid img {
+    margin-left: 50px;
 }
 
 .image-turbid img {
@@ -489,7 +494,7 @@ li {
 .content-details img {
     width: 80%;
     height: 90%;
-    margin-top: 20px;
+    margin-top: 0px;
 
 }
 
@@ -518,6 +523,11 @@ p {
     line-height: 20px;
 
 }
+
+.scroll {
+    margin-top: 100px;
+}
+
 
 /* footer */
 footer {
