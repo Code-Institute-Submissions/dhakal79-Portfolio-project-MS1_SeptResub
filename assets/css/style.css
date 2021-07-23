@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +13,9 @@ body {
     font-family: lato, sans-serif;
     font-weight: bold;
     color: #3a3a3a;
-
-
 }
+
+/* navigation bar */
 
 .menu-bar {
     background: #08A9B4;
@@ -40,8 +42,9 @@ body {
 .menu-bar ul li:hover {
     background: #2bab0d;
     border-radius: 10px;
-
 }
+
+/* drop down menu bar inspired from youtube video */
 
 .drop-down {
     display: none;
@@ -68,19 +71,19 @@ body {
     background: transparent;
     border-radius: 0;
     text-align: left;
-
 }
 
 .menu-bar ul li:hover .drop-down ul li a:hover {
     color: teal;
 }
 
+/* IHE logo */
+
 #logo {
     float: left;
     font-size: 100%;
     margin-left: 50px;
     padding: 15px;
-
 }
 
 #logo h1 {
@@ -93,8 +96,9 @@ h3 {
     font-family: oswald, sans-serif;
     letter-spacing: 1px;
     color: #046231;
-
 }
+
+/* hero image inspired from love running projects */
 
 #animation {
     height: 500px;
@@ -106,8 +110,6 @@ h3 {
     height: 500px;
     width: 100%;
     background: url("../../assets/images/water-image.jpg") no-repeat center center;
-
-
     /* image animation zoom properties */
     animation-name: image-zoom;
     animation-duration: 5s;
@@ -115,6 +117,7 @@ h3 {
 }
 
 /* animation of water image zoom */
+
 @keyframes image-zoom {
     from {
         transform: scale(1.0);
@@ -125,7 +128,7 @@ h3 {
     }
 }
 
-/*module introduction section */
+/*introduction page */
 
 .course-about {
     display: flex;
@@ -138,7 +141,6 @@ h3 {
     padding-top: 30px;
     width: 33%;
     float: left;
-
 }
 
 #video-intro {
@@ -149,21 +151,18 @@ h3 {
 
 #video-intro video {
     width: 500px;
-
 }
 
 #contact {
     padding-top: 30px;
     width: 33%;
     float: right;
-
 }
 
 hr {
     border-top: 2px solid #3a3a3a;
     width: 40%;
     margin: 10px 0;
-
 }
 
 .left-aim-heading {
@@ -185,7 +184,6 @@ li {
     margin-left: 20px;
 }
 
-
 #title-block {
     width: 600px;
     height: 50px;
@@ -198,7 +196,6 @@ li {
     font-size: 150%;
     color: white;
     padding-left: 20px;
-
 }
 
 #title-block h2 {
@@ -215,7 +212,6 @@ li {
 
 .class-block li {
     margin-left: 25px;
-
 }
 
 #contact-details {
@@ -249,8 +245,8 @@ li {
     margin-top: 10px;
 }
 
+/* introduction page: topics covered in the module */
 
-/* section 3 topics */
 .wrapper {
     margin-top: 5%;
 }
@@ -287,145 +283,11 @@ li {
     padding-bottom: 10px;
 }
 
+/* link to to go directly to the top of the page */
+
 .scroll {
     margin-left: 50px;
     color: #2012df;
-
-}
-
-/* Contact_us page */
-
-#feedback {
-    clear: both;
-    padding-left: 30px;
-
-}
-
-.contact-form {
-    color: #151414;
-    background-color: #fff;
-    max-width: 800px;
-    padding: 30px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 1.5%;
-
-}
-
-.contact-heading h1 {
-    color: #046231;
-    margin-bottom: 40px;
-
-}
-
-.contact-details {
-    width: 550px;
-}
-
-.contact-details h2 {
-
-    margin-bottom: 20px;
-}
-
-.contact-details input {
-    background: transparent;
-    color: #151414;
-    width: 100%;
-    height: 30px;
-    margin: 10px 0 25px 0;
-    border: 1px solid #5c5a5a;
-    border-radius: 2px;
-}
-
-.contact-details input:hover {
-    border-color: rgb(153, 8, 32);
-    cursor: pointer;
-}
-
-.contact-details fa {
-    margin-left: 25px;
-}
-
-
-
-.questionnaires h3 {
-    color: #046231;
-    margin-top: 20px;
-
-
-}
-
-.questionnaires hr {
-    border-top: 2px solid #151414;
-    width: 43%;
-    margin: 10px 0;
-}
-
-
-.feedback-questionnaire {
-    padding-left: 25px;
-}
-
-.radio-botton {
-    margin: 0 20px 40px 0;
-    cursor: pointer;
-    line-height: 15px;
-}
-
-.additional-remarks {
-    margin-top: 20px;
-}
-
-.additional-remarks h2 {
-    margin-bottom: 20px;
-}
-
-.additional-remarks textarea {
-    border-color: #be0e0e;
-    border-radius: 5px;
-    width: 100%;
-    margin-top: 10px;
-    height: 15rem;
-    background-color: #edf3f0;
-
-}
-
-.button {
-    margin-top: 15px;
-    border-radius: 5px;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    font-size: 110%;
-    background-color: #0ad17e;
-    color: #fff;
-    display: inline-block;
-}
-
-.button:hover {
-    background-color: rgb(4, 82, 39);
-    color: #e74c3c;
-    cursor: pointer;
-}
-
-.form-layout {
-    text-align: left;
-    max-width: 800px;
-    display: flex;
-}
-
-.location-map {
-    margin-top: 200px;
-
-}
-
-.map {
-    width: 700px;
-    height: 600px;
-}
-
-::placeholder {
-    padding: 5px;
-
 }
 
 /* theory page*/
@@ -436,7 +298,6 @@ li {
     width: auto;
     justify-content: space-between;
     margin-top: 10px;
-
 }
 
 .content .content-details {
@@ -462,19 +323,16 @@ li {
 
 .image {
     width: 500px;
-
 }
 
 .image img {
     width: 90%;
     height: 70%;
     margin-top: 40px;
-
 }
 
 .image-turbid {
     width: 500px;
-
 }
 
 .image-turbid img {
@@ -496,7 +354,6 @@ li {
     height: 75%;
     width: 85%;
     margin-top: 0px;
-
 }
 
 .content-details h3,
@@ -525,7 +382,6 @@ p {
 
 .table-content li {
     line-height: 20px;
-
 }
 
 .scroll {
@@ -536,15 +392,139 @@ p {
     font-size: 90%;
 }
 
+/* Contact_us page */
+
+#feedback {
+    clear: both;
+    padding-left: 30px;
+}
+
+.contact-form {
+    color: #151414;
+    background-color: #fff;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 1.5%;
+}
+
+.contact-heading h1 {
+    color: #046231;
+    margin-bottom: 40px;
+}
+
+.contact-details {
+    width: 550px;
+}
+
+.contact-details h2 {
+    margin-bottom: 20px;
+}
+
+.contact-details input {
+    background: transparent;
+    color: #151414;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    border: 1px solid #5c5a5a;
+    border-radius: 2px;
+}
+
+.contact-details input:hover {
+    border-color: rgb(153, 8, 32);
+    cursor: pointer;
+}
+
+.contact-details fa {
+    margin-left: 25px;
+}
+
+.questionnaires h3 {
+    color: #046231;
+    margin-top: 20px;
+}
+
+.questionnaires hr {
+    border-top: 2px solid #151414;
+    width: 43%;
+    margin: 10px 0;
+}
+
+.feedback-questionnaire {
+    padding-left: 25px;
+}
+
+.radio-botton {
+    margin: 0 20px 40px 0;
+    cursor: pointer;
+    line-height: 15px;
+}
+
+.additional-remarks {
+    margin-top: 20px;
+}
+
+.additional-remarks h2 {
+    margin-bottom: 20px;
+}
+
+.additional-remarks textarea {
+    border-color: #be0e0e;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    height: 15rem;
+    background-color: #edf3f0;
+}
+
+.button {
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 110%;
+    background-color: #0ad17e;
+    color: #fff;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: rgb(4, 82, 39);
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+.form-layout {
+    text-align: left;
+    max-width: 800px;
+    display: flex;
+}
+
+/* google map */
+
+.location-map {
+    margin-top: 200px;
+}
+
+.map {
+    width: 700px;
+    height: 600px;
+}
+
+::placeholder {
+    padding: 5px;
+}
 
 /* footer */
+
 footer {
     height: 100px;
 }
 
 .social-media {
     text-align: center;
-
 }
 
 .social-media>li {
@@ -563,11 +543,11 @@ footer {
 /*For screen size larger than 993px */
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    .course-about {
 
+    /* introduction page */
+    .course-about {
         flex-wrap: wrap;
         justify-content: space-between;
-
     }
 
     .coordinator {
@@ -582,12 +562,10 @@ footer {
         width: 100%;
     }
 
-
     #left-aim,
     #contact,
     #video-intro {
         width: 50%;
-
     }
 
     .left-aim-heading p,
@@ -599,15 +577,13 @@ footer {
         display: flex;
         flex-wrap: wrap;
         margin-left: 25px;
-
     }
 
     .topic .topic-detail {
         width: 300px;
-
     }
 
-
+    /* theory page */
     .content {
         display: block;
     }
@@ -664,6 +640,7 @@ footer {
         margin-left: 60px;
     }
 
+    /* contact page */
     .form-layout {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -677,15 +654,15 @@ footer {
 }
 
 /*For tablet screen size from 768 -992 px */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* introduction page */
     #video-intro video {
         width: 100%;
-
     }
 
     .course-about {
-
         flex-wrap: wrap;
         justify-content: space-between;
         width: 670px;
@@ -695,7 +672,6 @@ footer {
     #contact,
     #video-intro {
         width: 50%;
-
     }
 
     .left-aim-heading p,
@@ -712,7 +688,6 @@ footer {
         width: 120px;
         height: 120px;
         margin-top: 50px;
-
     }
 
     .coordinator-contact {
@@ -728,7 +703,6 @@ footer {
     #module-content {
         display: flex;
         flex-direction: column;
-
     }
 
     .topic {
@@ -739,7 +713,6 @@ footer {
 
     .topic-detail {
         width: 50%;
-
     }
 
     .wrapper {
@@ -760,11 +733,9 @@ footer {
         color: #2012df;
     }
 
-
     /* theory page tablet screen size from 768 -992 px */
     #logo {
         margin-left: 20px;
-
     }
 
     .menu-bar ul li {
@@ -834,17 +805,14 @@ footer {
         line-height: 25px;
     }
 
-
     /* feedback page */
     /*For tablet screen size from 768 -992 px */
-
     .questionnaires hr {
         width: 0px;
     }
 
     .feedback-questionnaire li {
         line-height: 50px;
-
     }
 
     .additional-remarks h2 {
@@ -853,7 +821,6 @@ footer {
 
     .form-layout {
         flex-direction: column;
-
     }
 
     .location-map {
@@ -868,10 +835,11 @@ footer {
     }
 }
 
-
 /*For screen size max width 767 px */
+
 @media screen and (max-width: 767px) {
 
+    /* introduction page */
     #logo {
         margin-left: 15px;
         margin-top: 10px;
@@ -882,7 +850,6 @@ footer {
         width: 33%;
         margin: 5px;
         padding: 18px;
-
     }
 
     .menu-bar {
@@ -915,7 +882,6 @@ footer {
         clear: both;
         height: 150px;
         margin: 0;
-
     }
 
     #left-aim,
@@ -931,7 +897,6 @@ footer {
         float: left;
         padding: 0;
     }
-
 
     hr {
         display: none;
@@ -953,8 +918,6 @@ footer {
         display: inline-block;
         width: 100%;
         padding-bottom: 5px;
-
-
     }
 
     .coordinator {
@@ -985,12 +948,10 @@ footer {
 
     #video-intro video {
         width: 100%;
-
     }
 
     #video-intro {
         margin-top: 25px;
-
     }
 
     .topic .topic-detail {
@@ -1007,7 +968,6 @@ footer {
     }
 
     /* theory page */
-
     .content {
         display: block;
     }
@@ -1017,7 +977,6 @@ footer {
         height: auto;
         margin-bottom: 0px;
         margin: 15px;
-
     }
 
     .content-details li {
@@ -1058,7 +1017,6 @@ footer {
     .content-details h3,
     p {
         margin-bottom: 0px;
-
     }
 
     #scheme {
@@ -1075,7 +1033,6 @@ footer {
     }
 
     /* feedback page */
-
     .contact-details {
         width: 100%;
     }
@@ -1083,7 +1040,6 @@ footer {
     .radio-botton {
         margin: 0px 10px 10px 0px;
         width: 100%;
-
     }
 
     .feedback-questionnaire {
