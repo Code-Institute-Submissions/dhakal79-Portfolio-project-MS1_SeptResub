@@ -290,6 +290,7 @@ li {
 .scroll {
     margin-left: 50px;
     color: #2012df;
+
 }
 
 /* Contact_us page */
@@ -414,7 +415,7 @@ li {
 
 .location-map {
     margin-top: 200px;
-    padding: 80px;
+
 }
 
 .map {
@@ -492,8 +493,8 @@ li {
 }
 
 .content-details img {
-    width: 80%;
-    height: 90%;
+    height: 75%;
+    width: 85%;
     margin-top: 0px;
 
 }
@@ -510,7 +511,10 @@ p {
 }
 
 #scheme {
-    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 70%;
 }
 
 #detail {
@@ -525,7 +529,11 @@ p {
 }
 
 .scroll {
-    margin-top: 100px;
+    text-align: right;
+}
+
+.figure {
+    font-size: 90%;
 }
 
 
