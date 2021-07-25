@@ -208,6 +208,31 @@ I have tested my site on multiple devices. These include:
   - iPad Pro (1024 x 1366)
   - Huawei P20 Pro
 
+Please find below my testing process for all pages via mobile and web:
+ ## All 3 pages:
+ ### Navigation bars
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Introduction page | on click to "introduction", the browser redirects me to the introduction page. The hoever effect (green rectangular box) appears when mouse is on "introduction".| PASS
+Theory page | on click to drop down menu bar "coagulation", the browser redirects me to the theory page. The hoever effect (green rectangular box) appears when mouse is on "theory". | PASS
+Feedback page| on click to "feedback page", the browser redirects me to the feedback page. The hoever effect (green rectangular box) appears when mouse is on "feedback page". | PASS
+Responsive | All pages and elements were responsive (mobile and website) using differnt breakpoints.| PASS
+Media| All images and videos on the pages load and played. The video added was not auto play. All images were checked if it blurred in differnt screen sizes| PASS
+Media| All images and videos on the pages load and played. The video added was not auto play. All images were checked if it blurred in differnt screen sizes| PASS
+Foreground & background  color| Checked foreground information is not distracted by backgrounds| PASS
+Text|Checked if all fonts and colors used are consistent or not|PASS
+Back to top|Checked if the page redirect to the top of the page when clicking the back to top on the bottom left corner of the page| PASS
+|||
+
+ ### Footer
+EST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Facebook | on clicking Facebook icon, a new tab opens and redirects to the Facebook website.| PASS
+Linkedin| on clicking Linkedin icon, a new tab opens and redirects to the Linkdin website.  | PASS
+Instagram| on clicking instagram icon, a new tab opens and redirects to the instagram website.  | PASS
+Youtube| on clicking youtube icon, a new tab opens and redirects to the youtube website. | PASS
+
   <a name="deployment"></a>
 # 5. Deployment
   [Go to the top](#table-of-contents)

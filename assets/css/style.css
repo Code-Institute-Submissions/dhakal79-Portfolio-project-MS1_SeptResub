@@ -505,7 +505,8 @@ p {
 /* google map */
 
 .location-map {
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-left: 150px;
 }
 
 .map {
