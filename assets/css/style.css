@@ -36,7 +36,7 @@ body {
 
 .menu-bar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #030303;
 }
 
 .menu-bar ul li:hover {
@@ -87,7 +87,7 @@ body {
 }
 
 #logo h1 {
-    color: #fff;
+    color: #030303;
 }
 
 h1,
@@ -113,7 +113,7 @@ h3 {
     animation-name: image-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    filter: grayscale(25%);
+    filter: grayscale(45%);
 }
 
 /* animation of water image zoom */
@@ -486,7 +486,7 @@ p {
     text-align: center;
     font-size: 110%;
     background-color: #0ad17e;
-    color: #fff;
+    color: #000000;
     display: inline-block;
 }
 
@@ -506,7 +506,7 @@ p {
 
 .location-map {
     margin-top: 300px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .map {
