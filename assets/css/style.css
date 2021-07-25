@@ -18,7 +18,7 @@ body {
 /* navigation bar */
 
 .menu-bar {
-    background: #08A9B4;
+    background: #044348;
     text-align: right;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .menu-bar ul li a {
     text-decoration: none;
-    color: #030303;
+    color: #fff;
 }
 
 .menu-bar ul li:hover {
@@ -53,7 +53,7 @@ body {
 .menu-bar ul li:hover .drop-down {
     display: block;
     position: absolute;
-    background: #08A9B4;
+    background: #044348;
     margin-top: 15px;
     margin-left: -15px;
     z-index: 1000;
@@ -74,7 +74,7 @@ body {
 }
 
 .menu-bar ul li:hover .drop-down ul li a:hover {
-    color: teal;
+    color: #fff;
 }
 
 /* IHE logo */
@@ -87,7 +87,7 @@ body {
 }
 
 #logo h1 {
-    color: #030303;
+    color: #fff;
 }
 
 h1,
@@ -107,14 +107,15 @@ h3 {
 }
 
 #water-image {
-    height: 500px;
-    width: 400px;
+    
+    
     /* image animation zoom properties */
     animation-name: image-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     filter: grayscale(45%);
 }
+
 
 /* animation of water image zoom */
 
