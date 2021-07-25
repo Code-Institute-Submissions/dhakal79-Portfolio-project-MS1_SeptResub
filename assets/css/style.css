@@ -108,12 +108,12 @@ h3 {
 
 #water-image {
     height: 500px;
-    width: 100%;
-    background: url("../../assets/images/water-image.jpg") no-repeat center center;
+    width: 400px;
     /* image animation zoom properties */
     animation-name: image-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+    filter: grayscale(25%);
 }
 
 /* animation of water image zoom */
