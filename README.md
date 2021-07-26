@@ -30,7 +30,7 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
   [4.Testing](#testing)
 
-  [5.Bugs](#testing)
+  [5.Bugs](#bugs)
 
   [6. Deployment](#deployment)
 
@@ -268,6 +268,9 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 # 5. Bugs
   [Go to the top](#table-of-contents)
 
+### Solved bugs
+- When i checked the accessibility of feedback page i discovered i forget to add title to iframe (google map). I solved it by adding title "google map".
+- I also discovered that Form elements do not have associated labels. I solved this by adding assoviated labels.  
 
   <a name="deployment"></a>
 # 6. Deployment
