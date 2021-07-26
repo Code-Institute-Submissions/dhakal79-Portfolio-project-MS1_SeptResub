@@ -538,7 +538,10 @@ footer {
     padding: 25px;
     color: #3a3a3a;
 }
-
+.social-media a {
+    text-decoration: none;
+}
+   
 /* media querries */
 
 /*For screen size larger than 993px */
