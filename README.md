@@ -76,8 +76,8 @@ The choice of website right foreground and background colour is essential that d
 ![color contrast](./assets/images/color-contrast.jpg)
 
 Other foreground and background color used in the sites are
-* foreground: #046231
-* background: #ffffff
+* foreground: #ffffff
+* background: #044348
 
 <a name="audio-video"></a>
 ## 1.4 Audio-Video/Images
@@ -176,7 +176,7 @@ The feedback form was correctly submitted  as  shown below.
   <a name="testing"></a>
 # 4. Testing
   [Go to the top](#table-of-contents)
-## 4.1 Automated testing
+## 4.1 Testing using tools
 ### 4.1.1 Google Developer Tools
 I make use of google developer tools (Chrome DevTools) as debugging tools. Using this tool i inspect for every elements that I added in HTML and CSS style. Once I was happy with, I copy the CSS style code from Chrome DevTools and paste in my CSS style sheet.
 
@@ -296,7 +296,7 @@ The site was deployed to GitHub pages using the following steps:
 * Coding for feedback.html page was inspired from differnt tutorial from https://codeinstitute.net/ 
 * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
 * For README.md file, reference of https://github.com/Chris-McGonigle/emmas-beauty-parlour and https://github.com/iKelvvv/MS1 was considered. 
-* Thanks to my mentor Marcel for constructive feedback.
+* Thanks to my mentor Marcel Mulders for his constructive feedback.
 
 ### Content 
  * All the contents for index.html page age came from https://www.un-ihe.org/unit-operations-water-treatment-coagulation-sedimentation-flotation-and-filtration
