@@ -82,6 +82,7 @@ Other foreground and background color used in the sites are
 <a name="audio-video"></a>
 ## 1.4 Audio-Video/Images
   [Go to the top](#table-of-contents)
+  
 This website consider of having images, audio/video that helps the users to understand the content easily. Having picture, audio/video consider worth a thousand words” when creating a web application. As far as possible all the images, video included in the website, is considered to be of high quality. The included audio/video is provided with control actions such as playing of audio/video that allows the user to initiate and control the actions.
 <a name="wireframes"></a>
 ## 1.5 Site Skeleton
