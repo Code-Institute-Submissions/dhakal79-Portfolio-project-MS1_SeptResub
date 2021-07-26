@@ -30,9 +30,11 @@ A live website can be found [here](https://dhakal79.github.io/Portfolio-project-
 
   [4.Testing](#testing)
 
-  [5. Deployment](#deployment)
+  [5.Bugs](#testing)
 
-  [6. Acknowledgement](#acknowledgement)
+  [6. Deployment](#deployment)
+
+  [7. Acknowledgement](#acknowledgement)
 
   <a name="ux"></a>
 # 1. User Expereince (UX) design
@@ -260,11 +262,15 @@ Placeholder| Checked if placeholder on the full name and email addres works or n
 Google map| Checked if google map when clicked on view larger map redirect to the google map page in new tab works ot not|PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
-![Theory-html page accessibility](./assets/images/feedback.jpg)
+![Feedback-html page accessibility](./assets/images/feedback.jpg)
+
+  <a name="bugs"></a>
+# 5. Bugs
+  [Go to the top](#table-of-contents)
 
 
   <a name="deployment"></a>
-# 5. Deployment
+# 6. Deployment
   [Go to the top](#table-of-contents)
 
 The site was deployed to GitHub pages using the following steps:
@@ -277,7 +283,7 @@ The site was deployed to GitHub pages using the following steps:
 - The live link can be found here - (https://dhakal79.github.io/Portfolio-project-MS1/)
 
   <a name="acknowledgement"></a>
-# 6. Acknowledgement
+# 7. Acknowledgement
   [Go to the top](#table-of-contents)
 ### Code
 * The footer code came from the Love Running projects
