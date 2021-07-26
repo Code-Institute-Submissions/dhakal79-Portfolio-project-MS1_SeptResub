@@ -270,7 +270,8 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
 ### Solved bugs
 - When i checked the accessibility of feedback page i discovered i forget to add title to iframe (google map). I solved it by adding title "google map".
-- I also discovered that Form elements do not have associated labels. I solved this by adding assoviated labels.  
+- I also discovered that Form elements do not have associated labels. I solved this by adding assoviated labels. 
+- I saw a hyphens between social media icons. The problem with &lt;a &gt; tags. The problem was solved by writing in css style sheet that target &lt;a &gt; using text-decoration: none;
 
   <a name="deployment"></a>
 # 6. Deployment
