@@ -507,6 +507,7 @@ p {
 
 .location-map {
     margin-top: 300px;
+    margin-left: 150px;
 }
 
 .map {
@@ -830,12 +831,13 @@ footer {
     .location-map {
         margin-top: 0px;
         padding: 0px;
+        margin-left: 0px;
     }
 
     .map {
         width: 680px;
         height: 400px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -1073,6 +1075,7 @@ footer {
     .location-map {
         margin-top: 0px;
         padding: 0px;
+        margin-left: 0px;
     }
 
     .map {
