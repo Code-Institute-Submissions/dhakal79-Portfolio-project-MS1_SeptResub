@@ -218,20 +218,50 @@ Introduction page | on click to "introduction", the browser redirects me to the 
 Theory page | on click to drop down menu bar "coagulation", the browser redirects me to the theory page. The hoever effect (green rectangular box) appears when mouse is on "theory". | PASS
 Feedback page| on click to "feedback page", the browser redirects me to the feedback page. The hoever effect (green rectangular box) appears when mouse is on "feedback page". | PASS
 Responsive | All pages and elements were responsive (mobile and website) using differnt breakpoints.| PASS
-Media| All images and videos on the pages load and played. The video added was not auto play. All images were checked if it blurred in differnt screen sizes| PASS
-Media| All images and videos on the pages load and played. The video added was not auto play. All images were checked if it blurred in differnt screen sizes| PASS
 Foreground & background  color| Checked foreground information is not distracted by backgrounds| PASS
 Text|Checked if all fonts and colors used are consistent or not|PASS
 Back to top|Checked if the page redirect to the top of the page when clicking the back to top on the bottom left corner of the page| PASS
 |||
 
  ### Footer
-EST            | OUTCOME                          | PASS / FAIL  
+TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Facebook | on clicking Facebook icon, a new tab opens and redirects to the Facebook website.| PASS
 Linkedin| on clicking Linkedin icon, a new tab opens and redirects to the Linkdin website.  | PASS
 Instagram| on clicking instagram icon, a new tab opens and redirects to the instagram website.  | PASS
-Youtube| on clicking youtube icon, a new tab opens and redirects to the youtube website. | PASS
+Youtube| on clicking youtube icon, a new tab opens and redirects to the youtube we
+
+### Introduction page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media| All images and videos on the pages load and played. The video added was not auto play. All images were checked if it blurred in differnt screen sizes| PASS
+Responsive | Responsive of the page in differnce screen sizes (mobile and website) using differnt breakpoints were checked.| PASS
+External link | Checked if the external link "Apply here" redirect to the concern page and open in new tab.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+
+![Index-html page accessibility](./assets/images/introduction.jpg)
+
+### Theory page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media| All images on the pages load. All images were checked if it blurred in differnt screen sizes| PASS
+Responsive | Responsive of the page in differnce screen sizes (mobile and website) using differnt breakpoints were checked.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+
+![Theory-html page accessibility](./assets/images/theory.jpg)
+
+### Feedback page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Responsive | Responsive of the page in differnce screen sizes (mobile and website) using differnt breakpoints were checked.| PASS
+Submit/Reset| Checked if submit and reset button works or not|PASS
+Radio buttons| Checked if radio button works or not|PASS
+Placeholder| Checked if placeholder on the full name and email addres works or not|PASS
+Google map| Checked if google map when clicked on view larger map redirect to the google map page in new tab works ot not|PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+
+![Theory-html page accessibility](./assets/images/feedback.jpg)
+
 
   <a name="deployment"></a>
 # 5. Deployment
