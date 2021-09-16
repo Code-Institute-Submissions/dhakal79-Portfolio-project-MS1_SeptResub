@@ -273,6 +273,12 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 - When i checked the accessibility of feedback page i discovered i forget to add title to iframe (google map). I solved it by adding title "google map".
 - I also discovered that Form elements do not have associated labels. I solved this by adding assoviated labels. 
 - I saw a hyphens between social media icons. The problem with &lt;a &gt; tags. The problem was solved by writing in css style sheet that target &lt;a &gt; using text-decoration: none;
+- W3C html validation did not pass for feedback page and has an error "element input and br not allowed as child of element ol". I solved this by wrapping all the input and br inside element li.
+- W3C html validation did not pass for theory page and has an errors 
+  -  "space not allowed for image file name". I solved this by including either hyphen or underscore in the file names".
+  - no p element in scope but p end tag seen. I solved this by inserting p tags in scope and end.
+  - duplicate id "coagulation" see which was solved by renaming the id. 
+
 
   <a name="deployment"></a>
 # 6. Deployment
