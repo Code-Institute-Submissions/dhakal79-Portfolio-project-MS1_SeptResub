@@ -193,7 +193,9 @@ In order to make sure that design web pages are responsive to all device sizes, 
 The HTML checker notified me an error in my index.html page. it suggested that i should consider using h2-h6 elements to the section with id='animation" in the page. 
 
 The identified error was corrected by switching section to div and no error was found as shown in picture below.
-![W3C HTML error corrected](./assets/images/w3chtml-corrected.jpg)
+![W3C HTML error index page](./assets/images/w3chtmlindex.jpg)
+![W3C HTML error index page](./assets/images/w3chtmltheory.jpg)
+![W3C HTML error index page](./assets/images/w3chtmlfeedback.jpg)
 
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my CSS stylesheet. No errors were found.
 
