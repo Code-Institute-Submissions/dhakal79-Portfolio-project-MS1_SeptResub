@@ -460,7 +460,7 @@ p {
 .radio-botton {
     margin: 0 20px 40px 0;
     cursor: pointer;
-    line-height: 15px;
+    line-height: 5px;
 }
 
 .additional-remarks {
@@ -817,7 +817,7 @@ footer {
     }
 
     .feedback-questionnaire li {
-        line-height: 50px;
+        line-height: 30px;
     }
 
     .additional-remarks h2 {
